@@ -1,0 +1,11 @@
+<powerpagecomponent powerpagecomponentid="47bbb043-3d2d-4ae2-acf9-37123b77818f">
+  <content>{"right":1,"scope":1}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Grant Change to Content</name>
+  <powerpagecomponenttype>10</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>8a06a503-9ac7-4255-a18f-4522d3048b16</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

@@ -1,0 +1,23 @@
+<powerpagecomponent powerpagecomponentid="cd3f85d6-69dc-6999-f828-6d72da6766bf">
+  <content>{
+  "filecontent": null,
+  "displayorder": 7,
+  "weblinksetid": "548eba46-8c95-476b-a98c-016b7e2b4109",
+  "pageid": "e59f51bd-815a-28bc-c4b9-e8ded04e9022",
+  "publishingstateid": "02906326-cb50-43a3-876e-fa32f591dfed",
+  "displaypagevalidation": false,
+  "displayimageonly": false,
+  "displaypagechildlinks": false,
+  "openinnewwindow": false,
+  "robotsfollowlink": true,
+  "parentweblinkid": null
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Chat</name>
+  <powerpagecomponenttype>5</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>8a06a503-9ac7-4255-a18f-4522d3048b16</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

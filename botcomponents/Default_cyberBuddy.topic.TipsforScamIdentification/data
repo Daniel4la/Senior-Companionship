@@ -1,0 +1,54 @@
+kind: AdaptiveDialog
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent:
+    includeInOnSelectIntent: false
+    triggerQueries:
+      - how to identify a scam
+      - How can I tell if something is a scam?
+      - What are the warning signs of an online scam?
+      - How do I know if an email is fake?
+      - How do I avoid scam phone calls?
+      - Are there any scams I should be aware of right now?
+      - What are some common scams targeting seniors?
+      - How can I spot phishing emails?
+      - What should I do if I receive a suspicious message?
+      - How can I protect myself from financial scams?
+      - What are some red flags for scams on social media?
+      - How do I recognize a phishing email or text?
+      - What should I do if I accidentally clicked a suspicious link?
+      - How can I avoid fake online shopping deals?
+      - How do I check if a website is legitimate?
+      - How can I spot a fake social media profile?
+      - What should I do if someone asks for my password or bank details?
+      - How do I know if a tech support call is real?
+      - How can I tell if a grandparent scam is happening?
+      - How do I tell if a job offer is a scam?
+      - How do I avoid romance scams?
+      - What are signs of a fake charity scam?
+      - How do I recognize investment scams?
+      - How can I avoid lottery or prize scams?
+      - What do I do if someone is impersonating a government official?
+      - How can I stay safe from scams on Facebook Marketplace?
+      - How can I tell if a rental listing is a scam?
+      - What are the signs of a fake online store?
+      - What should I watch out for in phishing text messages (SMS scams)?
+
+  actions:
+    - kind: SearchAndSummarizeContent
+      id: p12FdR
+      userInput: =System.LastMessage.Text
+      fileSearchDataSource:
+        searchFilesMode:
+          kind: DoNotSearchFiles
+
+      knowledgeSources:
+        kind: SearchSpecificKnowledgeSources
+        knowledgeSources:
+          - Default_cyberBuddy.topic.httpsmoneysmartgovauonlinesafetyprotectyourselffromscams_J_86cL0w7Qaj_M2Qc5
+          - Default_cyberBuddy.topic.AustralianCyberGov_W3AIgaogIt6CDAf7uAqj2
+          - Default_cyberBuddy.topic.ScamWatchSpotandAvoidScams_7HCTVB152saIsP0jqpqZn
+
+inputType: {}
+outputType: {}

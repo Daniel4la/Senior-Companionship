@@ -1,0 +1,12 @@
+<botcomponent schemaname="Default_cyberBuddy.file.Trusteduserdoc.xlsx_mcb">
+  <componenttype>14</componenttype>
+  <description>This is a list of trusted users and their email for the user to contact</description>
+  <filedata mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet">Trusted%20user%20doc.xlsx</filedata>
+  <iscustomizable>0</iscustomizable>
+  <name>Trusted user doc.xlsx</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.NCSCPasswordManagers_NW9IbAKmQ9MIM8UeBOi3W">
+  <componenttype>16</componenttype>
+  <description>This knowledge source searches information on the web found in https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online website when users want tips to keep their password and account strong and secure</description>
+  <iscustomizable>0</iscustomizable>
+  <name>NCSC Password Managers</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

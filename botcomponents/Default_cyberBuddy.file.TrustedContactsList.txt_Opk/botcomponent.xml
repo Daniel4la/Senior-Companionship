@@ -1,0 +1,12 @@
+<botcomponent schemaname="Default_cyberBuddy.file.TrustedContactsList.txt_Opk">
+  <componenttype>14</componenttype>
+  <description>This knowledge source searches information contained in Trusted Contacts List.txt</description>
+  <filedata mimetype="text/plain">Trusted%20Contacts%20List.txt</filedata>
+  <iscustomizable>0</iscustomizable>
+  <name>Trusted Contacts List.txt</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

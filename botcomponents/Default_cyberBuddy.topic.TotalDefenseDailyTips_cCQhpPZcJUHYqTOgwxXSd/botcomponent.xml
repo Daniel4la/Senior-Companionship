@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.TotalDefenseDailyTips_cCQhpPZcJUHYqTOgwxXSd">
+  <componenttype>16</componenttype>
+  <description>This knowledge source searches information on the web found in https://www.totaldefense.com/security-blog/category/ website for daily cyber security tips</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Total Defense Daily Tips</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

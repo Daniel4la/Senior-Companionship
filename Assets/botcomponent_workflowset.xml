@@ -1,0 +1,5 @@
+<botcomponent_workflowset>
+  <botcomponent_workflow botcomponentid.schemaname="Default_cyberBuddy.topic.Escalate" workflowid.workflowid="34b93efc-a272-6134-1698-7610c15e2c52">
+    <iscustomizable>1</iscustomizable>
+  </botcomponent_workflow>
+</botcomponent_workflowset>

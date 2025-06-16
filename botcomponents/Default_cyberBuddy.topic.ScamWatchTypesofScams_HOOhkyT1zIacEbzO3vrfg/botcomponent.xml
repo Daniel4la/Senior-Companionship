@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.ScamWatchTypesofScams_HOOhkyT1zIacEbzO3vrfg">
+  <componenttype>16</componenttype>
+  <description>When users seek information on types of scams, refer them to Scamwatch's Types of Scams page. This resource offers comprehensive insights into various scams targeting consumers, including text or SMS scams, phone scams, email scams, social media scams, website scams, and in-person scams. It provides guidance on recognizing fraudulent communications, understanding common scam tactics, and steps to protect personal and financial information. The page also emphasizes the importance of reporting scams to authorities like Scamwatch and the Australian Cyber Security Centre to help warn others and disrupt fraudulent activities. Additionally, it offers advice on actions to take if personal or financial information has been compromised.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Scam Watch - Types of Scams</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

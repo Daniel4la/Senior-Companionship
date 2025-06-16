@@ -1,0 +1,11 @@
+<powerpagecomponent powerpagecomponentid="b9942842-5f08-415f-b719-b7767531e02c">
+  <content>{"source":"&lt;div class=\"wrapper-body\"&gt;\r\n    &lt;div class=\"container\"&gt;\r\n        &lt;div class=\"page-heading\"&gt;\r\n            {% block breadcrumbs %}\r\n            {% include 'Breadcrumbs' %}\r\n            {% endblock %}\r\n            {% block title %}\r\n            {% include 'Page Header' %}\r\n            {% endblock %}\r\n        &lt;/div&gt;\r\n    &lt;/div&gt;\r\n    &lt;div id=\"mainContent\"&gt;\r\n    {% block main %}\r\n    {% include 'Page Copy' %}\r\n    {% endblock %}\r\n    &lt;/div&gt;\r\n    &lt;div class=\"push\"&gt;&lt;/div&gt;\r\n&lt;/div&gt;"}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Layout 1 Column</name>
+  <powerpagecomponenttype>8</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>8a06a503-9ac7-4255-a18f-4522d3048b16</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

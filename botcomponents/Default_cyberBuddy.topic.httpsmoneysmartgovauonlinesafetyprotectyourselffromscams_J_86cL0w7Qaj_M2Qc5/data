@@ -1,0 +1,4 @@
+kind: KnowledgeSourceConfiguration
+source:
+  kind: PublicSiteSearchSource
+  site: https://moneysmart.gov.au/online-safety/protect-yourself-from-scams

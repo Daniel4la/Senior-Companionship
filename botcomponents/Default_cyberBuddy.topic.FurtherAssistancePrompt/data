@@ -1,0 +1,13 @@
+kind: AdaptiveDialog
+modelDescription: After a topic ends, this topic is prompt to asking users for any further assistance needed.
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent: {}
+  actions:
+    - kind: SendActivity
+      id: sendActivity_MwkS4X
+      activity: Is there anything else I can assist you with today? Feel free to ask any other questions you may have!
+
+inputType: {}
+outputType: {}

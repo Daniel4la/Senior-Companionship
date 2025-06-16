@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.AustralianCyberGovThreats_U5afodSQiEzLU_rCHDeO_">
+  <componenttype>16</componenttype>
+  <description>When users seek information on cyber threats, refer them to the Australian Cyber Security Centre's Threats page. This resource provides a detailed overview of the current cyber threats affecting individuals and organizations. It highlights various risks such as account compromise, data breaches, ransomware, phishing attacks, and insider threats. The page also offers guidance on how to recognize these threats, prevent them, and respond if impacted. Users will learn about the importance of keeping software up to date, using strong passwords, and employing multi-factor authentication to strengthen security. Additionally, it stresses the need to remain vigilant and informed about emerging cyber threats to protect personal and organizational information effectively.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Australian Cyber Gov - Threats</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

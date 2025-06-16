@@ -1,0 +1,12 @@
+<botcomponent schemaname="Default_cyberBuddy.file.TrustedContactsList.docx_58A">
+  <componenttype>14</componenttype>
+  <description>Trusted contacts for the user and their email address</description>
+  <filedata mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document">Trusted%20Contacts%20List.docx</filedata>
+  <iscustomizable>0</iscustomizable>
+  <name>Trusted Contacts List.docx</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

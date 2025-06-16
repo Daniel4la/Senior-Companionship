@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.BeingScammed">
+  <componenttype>9</componenttype>
+  <description>Providing users with clear, informative steps to help them identify, respond to, and recover from scams. This includes guiding users through immediate actions to reduce potential damage—such as contacting their bank or service provider, changing passwords, and reporting the scam to authorities. The topic should also offer advice on recognizing warning signs of scams, preventing future incidents, and accessing official support channels for further help. The goal is to empower users with practical, easy-to-follow steps that promote safety, awareness, and confidence in managing scam-related situations.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Assistance with Scam Recovery</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

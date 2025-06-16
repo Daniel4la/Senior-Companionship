@@ -1,0 +1,34 @@
+kind: AdaptiveDialog
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent:
+    triggerQueries:
+      - I have a question about something else
+      - Actually, I want to ask about something else
+      - Can we talk about something different?
+      - I need help with something else
+      - I’d like to change the topic
+      - Can you help me with a different question?
+      - I’m done with this topic, let’s talk about something else
+      - Actually, I was also wondering about something else.
+      - I'm also curious about a different topic.
+      - I have a question on a completely different matter now.
+      - Switching gears here, but can you tell me about...
+      - I'm finished with this, but I need help with something different.
+      - By the way, I also wanted to ask you something else entirely.
+      - Now I have another question that is unrelated.
+      - I've got a different question on my mind now.
+      - I want to know something else
+      - I have concerns about something else
+
+  actions:
+    - kind: SendActivity
+      id: sendActivity_vobhRI
+      activity: Of course! I'm here to help with whatever you need. What other question do you have for me today?
+
+    - kind: CancelAllDialogs
+      id: bwKp7I
+
+inputType: {}
+outputType: {}

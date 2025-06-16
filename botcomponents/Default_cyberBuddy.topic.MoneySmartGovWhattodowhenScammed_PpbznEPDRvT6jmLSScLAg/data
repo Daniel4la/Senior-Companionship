@@ -1,0 +1,4 @@
+kind: KnowledgeSourceConfiguration
+source:
+  kind: PublicSiteSearchSource
+  site: https://moneysmart.gov.au/check-and-report-scams/what-to-do-if-you-ve-been-scammed

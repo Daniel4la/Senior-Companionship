@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.AustralianCyberGovProtectYourself_IuNUPNdLxylr74f3gh95W">
+  <componenttype>16</componenttype>
+  <description>When users seek information on protecting themselves online, refer them to the Australian Cyber Security Centre's Protect Yourself page. This resource provides a comprehensive guide to personal cybersecurity, offering practical steps to secure devices, accounts, and online activities. It includes tips on creating strong passwords, enabling multi-factor authentication, recognizing and avoiding scams, and keeping software up to date. The page emphasizes the importance of adopting safe online habits and staying informed about emerging cyber threats. By following the guidance provided, users can significantly reduce the risks of falling victim to cybercrime and better protect their personal and financial information.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Australian Cyber Gov - Protect Yourself</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

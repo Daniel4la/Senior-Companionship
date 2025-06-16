@@ -1,0 +1,13 @@
+<powerpagecomponent powerpagecomponentid="4c86bf46-bec8-43fc-a1c0-46dd42214b5f">
+  <content>{
+  "value": "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"
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Authentication/OpenAuth/Google/ClientSecret</name>
+  <powerpagecomponenttype>9</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>8a06a503-9ac7-4255-a18f-4522d3048b16</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

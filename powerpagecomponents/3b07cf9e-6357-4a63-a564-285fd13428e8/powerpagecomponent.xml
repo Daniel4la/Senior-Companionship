@@ -1,0 +1,14 @@
+<powerpagecomponent powerpagecomponentid="3b07cf9e-6357-4a63-a564-285fd13428e8">
+  <content>{"display_name":"Search/Facet/Clear Constraints","type":756150000,"value":"Clear All"}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Search/Facet/ClearConstraints</name>
+  <powerpagecomponenttype>7</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>8a06a503-9ac7-4255-a18f-4522d3048b16</powerpagesiteid>
+  </powerpagesiteid>
+  <powerpagesitelanguageid>
+    <powerpagesitelanguageid>75833fe0-0eb4-4fa4-98db-b96a7ac5b501</powerpagesitelanguageid>
+  </powerpagesitelanguageid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

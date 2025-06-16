@@ -1,0 +1,369 @@
+kind: AdaptiveDialog
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent:
+    triggerQueries:
+      - reset my password
+      - change my password
+      - forgot my password
+      - update security settings
+      - enable two-factor authentication
+      - disable two-factor authentication
+      - security questions setup
+      - account security tips
+      - password recovery options
+      - I want to make my passwords more secure
+      - What is two-factor authentication
+      - Is my password strong enough
+      - I forgot my password
+      - How can I protect my account from hackers
+      - Why do I need to change my password
+      - Is it safe to reuse the same password
+      - How do I keep my accounts secure
+      - How do I stop my account from being hacked
+      - Should I set up security questions
+      - How do I make my phone or computer password stronger
+      - Help me create a strong password
+      - Where can I store my passwords safely
+      - Should I use a password manager
+      - What does a password manager do
+      - I need to reset my password
+      - How do I know if my password was stolen
+      - My account might be hacked
+      - My account was in a data breach
+      - I think someone else is using my account
+      - Should I change my passwords often
+      - I got a suspicious message asking for my password
+
+  actions:
+    - kind: Question
+      id: Question_jZGiOJ
+      variable: Topic.SecurityOption
+      prompt: How can I help you with your account security?
+      entity:
+        kind: EmbeddedEntity
+        definition:
+          kind: ClosedListEntity
+          optionSetName: SecurityOptions
+          items:
+            - id: Reset or change my password
+              displayName: Reset or change my password
+
+            - id: Improve my account security
+              displayName: Improve my account security
+
+            - id: Tips for Password & Account Security
+              displayName: Tips for Password & Account Security
+
+            - id: Report suspicious activity
+              displayName: Report suspicious activity
+
+    - kind: ConditionGroup
+      id: ConditionGroup_CxbH3s
+      conditions:
+        - id: ConditionItem_7vjfsq
+          condition: =Topic.SecurityOption = SecurityOptions.'Reset or change my password'
+          actions:
+            - kind: Question
+              id: question_qyaljM
+              interruptionPolicy:
+                allowInterruption: true
+
+              variable: init:Topic.PasswordInput
+              prompt: Let’s get that sorted — do you want to reset a forgotten password or update your current one?
+              entity: StringPrebuiltEntity
+
+            - kind: SearchAndSummarizeContent
+              id: VHz4Ik
+              userInput: =Topic.PasswordInput
+              fileSearchDataSource:
+                searchFilesMode:
+                  kind: DoNotSearchFiles
+
+              knowledgeSources:
+                kind: SearchSpecificKnowledgeSources
+                knowledgeSources:
+                  - Default_cyberBuddy.topic.CyberGovPasswords_Gj26k0SzuPUJj93N7poGI
+                  - Default_cyberBuddy.topic.VicGovPasswords_0B2lS6QukHtdew8bGkRrn
+                  - Default_cyberBuddy.topic.CyberGovAccountSecurity_NE5OGThpUBYxSX9AdPmME
+                  - Default_cyberBuddy.topic.AustralianCyberGovProtectYourself_IuNUPNdLxylr74f3gh95W
+
+              publicDataSource: {}
+
+            - kind: Question
+              id: question_7REAmu
+              interruptionPolicy:
+                allowInterruption: true
+
+              variable: init:Topic.ContinuePassword
+              prompt: Is there anything else you would like help with regarding passwords?
+              entity:
+                kind: EmbeddedEntity
+                definition:
+                  kind: ClosedListEntity
+                  items:
+                    - id: Yes Please!
+                      displayName: Yes please!
+
+                    - id: No thank you!
+                      displayName: No thank you!
+
+            - kind: ConditionGroup
+              id: conditionGroup_AiUmt8
+              conditions:
+                - id: conditionItem_hollK6
+                  condition: =Topic.ContinuePassword = 'Default_cyberBuddy.topic.PasswordandSecurityManagement.main.question_7REAmu'.'Yes Please!'
+                  actions:
+                    - kind: GotoAction
+                      id: L8U8co
+                      actionId: question_qyaljM
+
+                - id: conditionItem_oKBWXx
+                  condition: =Topic.ContinuePassword = 'Default_cyberBuddy.topic.PasswordandSecurityManagement.main.question_7REAmu'.'No thank you!'
+                  actions:
+                    - kind: AdaptiveCardPrompt
+                      id: PP0KZZ
+                      card: |-
+                        {
+                          "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+                          "type": "AdaptiveCard",
+                          "version": "1.5",
+                          "body": [
+                            {
+                              "type": "TextBlock",
+                              "text": "Was this answer helpful?",
+                              "wrap": true,
+                              "spacing": "Medium",
+                              "size": "Small",
+                              "color": "Accent"
+                            },
+                            {
+                              "type": "ActionSet",
+                              "actions": [
+                                {
+                                  "type": "Action.Submit",
+                                  "title": "👍 Helpful"
+                                },
+                                {
+                                  "type": "Action.Submit",
+                                  "title": "👎 Unhelpful"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      output:
+                        binding:
+                          actionSubmitId: Topic.actionSubmitId
+
+                      outputType:
+                        properties:
+                          actionSubmitId: String
+
+        - id: ConditionItem_c1AOth
+          condition: =Topic.SecurityOption = SecurityOptions.'Improve my account security'
+          actions:
+            - kind: Question
+              id: question_ePbDWk
+              interruptionPolicy:
+                allowInterruption: true
+
+              variable: init:Topic.AccountInput
+              prompt: Okay, let's strengthen your account! Would you like help with setting a stronger password, enabling two-factor authentication, or learning best practices to keep your account safe?
+              entity: StringPrebuiltEntity
+
+            - kind: SearchAndSummarizeContent
+              id: cOnHBy
+              userInput: =Topic.AccountInput
+              fileSearchDataSource:
+                searchFilesMode:
+                  kind: DoNotSearchFiles
+
+              knowledgeSources:
+                kind: SearchSpecificKnowledgeSources
+                knowledgeSources:
+                  - Default_cyberBuddy.topic.CyberGovPasswords_Gj26k0SzuPUJj93N7poGI
+                  - Default_cyberBuddy.topic.VicGovPasswords_0B2lS6QukHtdew8bGkRrn
+                  - Default_cyberBuddy.topic.AustralianCyberGovProtectYourself_IuNUPNdLxylr74f3gh95W
+
+            - kind: Question
+              id: question_TUrSBj
+              interruptionPolicy:
+                allowInterruption: true
+
+              variable: init:Topic.ContinueAccount
+              prompt: Is there anything else you would like help with regarding your account security?
+              entity:
+                kind: EmbeddedEntity
+                definition:
+                  kind: ClosedListEntity
+                  items:
+                    - id: Yes please!
+                      displayName: Yes please!
+
+                    - id: No thank you!
+                      displayName: No thank you!
+
+            - kind: ConditionGroup
+              id: conditionGroup_6GttZq
+              conditions:
+                - id: conditionItem_u0qPIm
+                  condition: =Topic.ContinueAccount = 'Default_cyberBuddy.topic.PasswordandSecurityManagement.main.question_TUrSBj'.'Yes please!'
+                  actions:
+                    - kind: GotoAction
+                      id: 7nWH4S
+                      actionId: question_ePbDWk
+
+                - id: conditionItem_Xk3Hlv
+                  condition: =Topic.ContinueAccount = 'Default_cyberBuddy.topic.PasswordandSecurityManagement.main.question_TUrSBj'.'No thank you!'
+                  actions:
+                    - kind: AdaptiveCardPrompt
+                      id: Ry8aYV
+                      card: |-
+                        {
+                          "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+                          "type": "AdaptiveCard",
+                          "version": "1.5",
+                          "body": [
+                            {
+                              "type": "TextBlock",
+                              "text": "Was this answer helpful?",
+                              "wrap": true,
+                              "spacing": "Medium",
+                              "size": "Small",
+                              "color": "Accent"
+                            },
+                            {
+                              "type": "ActionSet",
+                              "actions": [
+                                {
+                                  "type": "Action.Submit",
+                                  "title": "👍 Helpful"
+                                },
+                                {
+                                  "type": "Action.Submit",
+                                  "title": "👎 Unhelpful"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      output:
+                        binding:
+                          actionSubmitId: Topic.actionSubmitId
+
+                      outputType:
+                        properties:
+                          actionSubmitId: String
+
+        - id: ConditionItem_zOnCPW
+          condition: =Topic.SecurityOption = SecurityOptions.'Tips for Password & Account Security'
+          actions:
+            - kind: Question
+              id: question_W0r1LN
+              interruptionPolicy:
+                allowInterruption: true
+
+              variable: init:Topic.TipsInput
+              prompt: What would you like to explore? I can help you understand what makes passwords strong, how to manage them safely, and ways to keep your accounts secure.
+              entity: StringPrebuiltEntity
+
+            - kind: SearchAndSummarizeContent
+              id: Bz4DTm
+              userInput: =Topic.TipsInput
+              fileSearchDataSource:
+                searchFilesMode:
+                  kind: DoNotSearchFiles
+
+              knowledgeSources:
+                kind: SearchSpecificKnowledgeSources
+                knowledgeSources:
+                  - Default_cyberBuddy.topic.NCSCPasswordManagers_NW9IbAKmQ9MIM8UeBOi3W
+                  - Default_cyberBuddy.topic.CyberGovPasswords_Gj26k0SzuPUJj93N7poGI
+                  - Default_cyberBuddy.topic.VicGovPasswords_0B2lS6QukHtdew8bGkRrn
+                  - Default_cyberBuddy.topic.AustralianCyberGovProtectYourself_IuNUPNdLxylr74f3gh95W
+
+            - kind: Question
+              id: question_pLsIiP
+              interruptionPolicy:
+                allowInterruption: true
+
+              variable: init:Topic.ContinueTips
+              prompt: Would you like any more tips on keeping your passwords and accounts secure?
+              entity:
+                kind: EmbeddedEntity
+                definition:
+                  kind: ClosedListEntity
+                  items:
+                    - id: Yes please!
+                      displayName: Yes please!
+
+                    - id: No thank you!
+                      displayName: No thank you!
+
+            - kind: ConditionGroup
+              id: conditionGroup_BJvlnX
+              conditions:
+                - id: conditionItem_NTQm3q
+                  condition: =Topic.ContinueTips = 'Default_cyberBuddy.topic.PasswordandSecurityManagement.main.question_pLsIiP'.'Yes please!'
+                  actions:
+                    - kind: GotoAction
+                      id: AKZEED
+                      actionId: question_W0r1LN
+
+                - id: conditionItem_hwX24y
+                  condition: =Topic.ContinueTips = 'Default_cyberBuddy.topic.PasswordandSecurityManagement.main.question_pLsIiP'.'No thank you!'
+                  actions:
+                    - kind: AdaptiveCardPrompt
+                      id: CbMj4O
+                      card: |-
+                        {
+                          "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+                          "type": "AdaptiveCard",
+                          "version": "1.5",
+                          "body": [
+                            {
+                              "type": "TextBlock",
+                              "text": "Was this answer helpful?",
+                              "wrap": true,
+                              "spacing": "Medium",
+                              "size": "Small",
+                              "color": "Accent"
+                            },
+                            {
+                              "type": "ActionSet",
+                              "actions": [
+                                {
+                                  "type": "Action.Submit",
+                                  "title": "👍 Helpful"
+                                },
+                                {
+                                  "type": "Action.Submit",
+                                  "title": "👎 Unhelpful"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      output:
+                        binding:
+                          actionSubmitId: Topic.actionSubmitId
+
+                      outputType:
+                        properties:
+                          actionSubmitId: String
+
+        - id: ConditionItem_YNFIV8
+          condition: =Topic.SecurityOption = SecurityOptions.'Report suspicious activity'
+          actions:
+            - kind: BeginDialog
+              id: J4Q9C5
+              dialog: Default_cyberBuddy.topic.ReportingScams
+
+    - kind: BeginDialog
+      id: 3yy66s
+      dialog: Default_cyberBuddy.topic.FurtherAssistancePrompt
+
+inputType: {}
+outputType: {}

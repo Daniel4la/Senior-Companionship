@@ -1,0 +1,454 @@
+kind: AdaptiveDialog
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent:
+    includeInOnSelectIntent: false
+    triggerQueries:
+      - online shopping safety
+      - how to shop online safely
+      - secure online payment methods
+      - tips for safe online shopping
+      - protecting payment information online
+      - safe internet shopping practices
+      - avoiding scams while shopping online
+      - online payment security tips
+      - "\"How can I tell if an online store is safe?\""
+      - "\"Is this website legit or a scam?\""
+      - "\"What should I watch out for when shopping online?\""
+      - "\"How can I protect myself while shopping online?\""
+      - "\"Is it safe to buy things from new websites?\""
+      - "\"What are the signs of a scam website?\""
+      - How can I tell if an online store is safe?
+      - Is this website legit or a scam?
+      - What should I watch out for when shopping online?
+      - How can I protect myself while shopping online?
+      - Is it safe to buy things from new websites?
+      - What are the signs of a scam website?
+      - How do I protect my card information online?
+      - What is the safest way to pay online?
+      - How do I know if my payment is secure?
+      - Can my credit card information be stolen during online shopping?
+      - What should I do if I think my card details have been stolen?
+      - How can I avoid fraud when paying online?
+      - I have concerns about online shopping
+      - I have some concerns about purchasing online
+      - I have concerns about online payment
+      - How can I browse the internet safely?
+      - What should I do to protect myself when browsing online?
+      - How can I avoid websites that might be harmful or fake?
+      - What are some tips for safe internet use?
+      - How do I know if a website is trustworthy?
+      - Are there any websites I should avoid to stay safe?
+      - What should I do if I accidentally click on a suspicious link?
+      - How can I tell if a website is trying to scam me?
+      - What are common signs that a website isn’t safe?
+      - How can I tell if a website is trying to steal my personal details?
+      - I have a question about online safety
+      - I want to stay safe online
+
+  actions:
+    - kind: Question
+      id: Question_43O7nL
+      repeatCount: 0
+      variable: Topic.AdviceType
+      prompt:
+        text:
+          - Are you seeking help with online safety, securing your payment details, or something else after your purchase?
+        speak:
+          - Choose one of the options
+
+      entity:
+        kind: EmbeddedEntity
+        definition:
+          kind: ClosedListEntity
+          optionSetName: AdviceTypeOptions
+          items:
+            - id: Online Safety
+              displayName: Online Safety
+              dtmfKey: Num1
+
+            - id: payment_security
+              displayName: Payment and Card Security
+              dtmfKey: Num2
+
+            - id: After Purchase
+              displayName: After Purchase
+              dtmfKey: Num3
+
+          dtmfMultipleChoiceOptions:
+            generateMapping: true
+
+    - kind: ConditionGroup
+      id: ConditionGroup_xJs2H1
+      conditions:
+        - id: ConditionItem_AwuVmD
+          condition: =Topic.AdviceType = AdviceTypeOptions.'Online Safety'
+          actions:
+            - kind: Question
+              id: question_Gfgck8
+              interruptionPolicy:
+                allowInterruption: true
+                interruptionTopicListFilter:
+                  kind: IncludeSelectedTopics
+                  allowedInterruptTopics:
+                    - Default_cyberBuddy.topic.BeingScammed
+                    - Default_cyberBuddy.topic.Escalate
+                    - Default_cyberBuddy.topic.FurtherAssistancePrompt
+                    - Default_cyberBuddy.topic.Goodbye
+                    - Default_cyberBuddy.topic.Greeting
+                    - Default_cyberBuddy.topic.ScamNews
+                    - Default_cyberBuddy.topic.OnlineShoppingandPaymentSafety
+                    - Default_cyberBuddy.topic.RedirectingTopics
+                    - Default_cyberBuddy.topic.StartOver
+                    - Default_cyberBuddy.topic.ThankYou
+
+              variable: init:Topic.OnlineInput
+              prompt: What would you like to know about staying safe online?
+              entity: StringPrebuiltEntity
+
+            - kind: SearchAndSummarizeContent
+              id: CPqPzS
+              userInput: =Topic.OnlineInput
+              fileSearchDataSource:
+                searchFilesMode:
+                  kind: DoNotSearchFiles
+
+              knowledgeSources:
+                kind: SearchSpecificKnowledgeSources
+                knowledgeSources:
+                  - Default_cyberBuddy.topic.VicGovStaySafeOnline_ZpMObSPX_xLBb7zyTUsqN
+                  - Default_cyberBuddy.topic.ConsumerGov_3z8eKPfpSEdPzU25l1R82
+                  - Default_cyberBuddy.topic.ScamWatchProductandServicesScam_vCia6SeKTceU3GLaqScos
+                  - Default_cyberBuddy.topic.MoneySmartGovOnlineSafety_VbGe2vouVlEG9Bp2f8ej5
+
+            - kind: Question
+              id: question_ClFMA4
+              interruptionPolicy:
+                allowInterruption: true
+
+              variable: init:Topic.OnlineContinue
+              prompt: Do you have any other inquiries about **Online Safety**?
+              entity:
+                kind: EmbeddedEntity
+                definition:
+                  kind: ClosedListEntity
+                  items:
+                    - id: Yes please!
+                      displayName: Yes please!
+
+                    - id: No thank you!
+                      displayName: No thank you!
+
+            - kind: ConditionGroup
+              id: conditionGroup_MvVsEV
+              conditions:
+                - id: conditionItem_uaQdFO
+                  condition: =Topic.OnlineContinue = 'Default_cyberBuddy.topic.OnlineShoppingandPaymentSafety.main.question_ClFMA4'.'Yes please!'
+                  actions:
+                    - kind: GotoAction
+                      id: 9O8OOP
+                      actionId: question_Gfgck8
+
+                - id: conditionItem_FqaYrQ
+                  condition: =Topic.OnlineContinue = 'Default_cyberBuddy.topic.OnlineShoppingandPaymentSafety.main.question_ClFMA4'.'No thank you!'
+                  actions:
+                    - kind: AdaptiveCardPrompt
+                      id: Vi0pFp
+                      card: |-
+                        {
+                          "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+                          "type": "AdaptiveCard",
+                          "version": "1.5",
+                          "body": [
+                            {
+                              "type": "TextBlock",
+                              "text": "Was this answer helpful?",
+                              "wrap": true,
+                              "spacing": "Medium",
+                              "size": "Small",
+                              "color": "Accent"
+                            },
+                            {
+                              "type": "ActionSet",
+                              "actions": [
+                                {
+                                  "type": "Action.Submit",
+                                  "title": "👍 Helpful"
+                                },
+                                {
+                                  "type": "Action.Submit",
+                                  "title": "👎 Unhelpful"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      output:
+                        binding:
+                          actionSubmitId: Topic.actionSubmitId
+
+                      outputType:
+                        properties:
+                          actionSubmitId: String
+
+        - id: ConditionItem_uhrLh1
+          condition: =Topic.AdviceType = AdviceTypeOptions.payment_security
+          actions:
+            - kind: Question
+              id: question_JwKj74
+              interruptionPolicy:
+                allowInterruption: true
+                interruptionTopicListFilter:
+                  kind: IncludeSelectedTopics
+                  allowedInterruptTopics:
+                    - Default_cyberBuddy.topic.BeingScammed
+                    - Default_cyberBuddy.topic.Escalate
+                    - Default_cyberBuddy.topic.FurtherAssistancePrompt
+                    - Default_cyberBuddy.topic.Goodbye
+                    - Default_cyberBuddy.topic.Greeting
+                    - Default_cyberBuddy.topic.ScamNews
+                    - Default_cyberBuddy.topic.OnlineShoppingandPaymentSafety
+                    - Default_cyberBuddy.topic.RedirectingTopics
+                    - Default_cyberBuddy.topic.StartOver
+                    - Default_cyberBuddy.topic.ThankYou
+
+              repeatCount: 0
+              alwaysPrompt: false
+              variable: init:Topic.PaymentInput
+              prompt: What would you like to know about keeping your payments and card details secure?
+              entity: StringPrebuiltEntity
+
+            - kind: SearchAndSummarizeContent
+              id: ttAukZ
+              userInput: =Topic.PaymentInput
+              additionalInstructions:
+              fileSearchDataSource:
+                searchFilesMode:
+                  kind: DoNotSearchFiles
+
+              knowledgeSources:
+                kind: SearchSpecificKnowledgeSources
+                knowledgeSources:
+                  - Default_cyberBuddy.topic.ScamWatchProductandServicesScam_vCia6SeKTceU3GLaqScos
+                  - Default_cyberBuddy.topic.CyberGovOnlineShopping_yqa2qQ4meepvZI_GHKemG
+                  - Default_cyberBuddy.topic.ConsumerGov_3z8eKPfpSEdPzU25l1R82
+                  - Default_cyberBuddy.topic.MoneySmartGovOnlineSafety_VbGe2vouVlEG9Bp2f8ej5
+
+            - kind: Question
+              id: question_0oA7kG
+              interruptionPolicy:
+                allowInterruption: true
+
+              variable: init:Topic.PaymentContinue
+              prompt: Do you have any other inquiries about **Payment and Card Security**?
+              entity:
+                kind: EmbeddedEntity
+                definition:
+                  kind: ClosedListEntity
+                  items:
+                    - id: Yes please!
+                      displayName: Yes please!
+
+                    - id: No thank you!
+                      displayName: No thank you!
+
+            - kind: ConditionGroup
+              id: conditionGroup_ZBFS4e
+              conditions:
+                - id: conditionItem_IOJczr
+                  condition: =Topic.PaymentContinue = 'Default_cyberBuddy.topic.OnlineShoppingandPaymentSafety.main.question_0oA7kG'.'Yes please!'
+                  actions:
+                    - kind: GotoAction
+                      id: mVlbcR
+                      actionId: question_JwKj74
+
+                - id: conditionItem_0QUTyz
+                  condition: =Topic.PaymentContinue = 'Default_cyberBuddy.topic.OnlineShoppingandPaymentSafety.main.question_0oA7kG'.'No thank you!'
+                  actions:
+                    - kind: AdaptiveCardPrompt
+                      id: MBZhXb
+                      card: |-
+                        {
+                          "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+                          "type": "AdaptiveCard",
+                          "version": "1.5",
+                          "body": [
+                            {
+                              "type": "TextBlock",
+                              "text": "Was this answer helpful?",
+                              "wrap": true,
+                              "spacing": "Medium",
+                              "size": "Small",
+                              "color": "Accent"
+                            },
+                            {
+                              "type": "ActionSet",
+                              "actions": [
+                                {
+                                  "type": "Action.Submit",
+                                  "title": "👍 Helpful"
+                                },
+                                {
+                                  "type": "Action.Submit",
+                                  "title": "👎 Unhelpful"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      output:
+                        binding:
+                          actionSubmitId: Topic.actionSubmitId
+
+                      outputType:
+                        properties:
+                          actionSubmitId: String
+
+        - id: conditionItem_bbSCjc
+          condition: =Topic.AdviceType = AdviceTypeOptions.'After Purchase'
+          actions:
+            - kind: Question
+              id: question_5dBotv
+              interruptionPolicy:
+                allowInterruption: true
+
+              variable: init:Topic.Var1
+              prompt: Do you need assistance because you think you’ve been scammed, or do you have general concerns about your purchase?
+              entity:
+                kind: EmbeddedEntity
+                definition:
+                  kind: ClosedListEntity
+                  items:
+                    - id: I think I have been scammed
+                      displayName: I think I have been scammed
+
+                    - id: I have general concerns about my purchase
+                      displayName: I have general concerns about my purchase
+
+            - kind: ConditionGroup
+              id: conditionGroup_Ui5wfG
+              conditions:
+                - id: conditionItem_tUgL2R
+                  condition: =Topic.Var1 = 'Default_cyberBuddy.topic.OnlineShoppingandPaymentSafety.main.question_5dBotv'.'I think I have been scammed'
+                  actions:
+                    - kind: BeginDialog
+                      id: yrXKsJ
+                      dialog: Default_cyberBuddy.topic.BeingScammed
+
+                - id: conditionItem_A4B3WL
+                  condition: =Topic.Var1 = 'Default_cyberBuddy.topic.OnlineShoppingandPaymentSafety.main.question_5dBotv'.'I have general concerns about my purchase'
+                  actions:
+                    - kind: Question
+                      id: question_qIax0F
+                      interruptionPolicy:
+                        allowInterruption: true
+                        interruptionTopicListFilter:
+                          kind: IncludeSelectedTopics
+                          allowedInterruptTopics:
+                            - Default_cyberBuddy.topic.BeingScammed
+                            - Default_cyberBuddy.topic.Escalate
+                            - Default_cyberBuddy.topic.FurtherAssistancePrompt
+                            - Default_cyberBuddy.topic.Goodbye
+                            - Default_cyberBuddy.topic.Greeting
+                            - Default_cyberBuddy.topic.ScamNews
+                            - Default_cyberBuddy.topic.OnlineShoppingandPaymentSafety
+                            - Default_cyberBuddy.topic.RedirectingTopics
+                            - Default_cyberBuddy.topic.StartOver
+                            - Default_cyberBuddy.topic.ThankYou
+
+                      variable: init:Topic.ConcernInput
+                      prompt: Sure! Is there something specific you're concerned about with your purchase today?
+                      entity: StringPrebuiltEntity
+
+                    - kind: SearchAndSummarizeContent
+                      id: NataU7
+                      userInput: =Topic.ConcernInput
+                      fileSearchDataSource:
+                        searchFilesMode:
+                          kind: DoNotSearchFiles
+
+                      knowledgeSources:
+                        kind: SearchSpecificKnowledgeSources
+                        knowledgeSources:
+                          - Default_cyberBuddy.topic.ACCCGovBuyingOnline_1PAe7T0LY7bkP9EnAHTtH
+                          - Default_cyberBuddy.topic.ScamWatchProductandServicesScam_vCia6SeKTceU3GLaqScos
+                          - Default_cyberBuddy.topic.CyberGovOnlineShopping_yqa2qQ4meepvZI_GHKemG
+                          - Default_cyberBuddy.topic.ConsumerGov_3z8eKPfpSEdPzU25l1R82
+
+                    - kind: Question
+                      id: question_qZ8VCI
+                      interruptionPolicy:
+                        allowInterruption: true
+
+                      variable: init:Topic.PurchaseContinue
+                      prompt: Are there any other **After-Purchase** concerns you need help with today?
+                      entity:
+                        kind: EmbeddedEntity
+                        definition:
+                          kind: ClosedListEntity
+                          items:
+                            - id: Yes please!
+                              displayName: Yes please!
+
+                            - id: No thank you!
+                              displayName: No thank you!
+
+                    - kind: ConditionGroup
+                      id: conditionGroup_ysoV5G
+                      conditions:
+                        - id: conditionItem_TpaHK9
+                          condition: =Topic.PurchaseContinue = 'Default_cyberBuddy.topic.OnlineShoppingandPaymentSafety.main.question_qZ8VCI'.'Yes please!'
+                          actions:
+                            - kind: GotoAction
+                              id: zMKLmZ
+                              actionId: question_qIax0F
+
+                        - id: conditionItem_dIiTeB
+                          condition: =Topic.PurchaseContinue = 'Default_cyberBuddy.topic.OnlineShoppingandPaymentSafety.main.question_qZ8VCI'.'No thank you!'
+                          actions:
+                            - kind: AdaptiveCardPrompt
+                              id: Kl8eLv
+                              card: |-
+                                {
+                                  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+                                  "type": "AdaptiveCard",
+                                  "version": "1.5",
+                                  "body": [
+                                    {
+                                      "type": "TextBlock",
+                                      "text": "Was this answer helpful?",
+                                      "wrap": true,
+                                      "spacing": "Medium",
+                                      "size": "Small",
+                                      "color": "Accent"
+                                    },
+                                    {
+                                      "type": "ActionSet",
+                                      "actions": [
+                                        {
+                                          "type": "Action.Submit",
+                                          "title": "👍 Helpful"
+                                        },
+                                        {
+                                          "type": "Action.Submit",
+                                          "title": "👎 Unhelpful"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              output:
+                                binding:
+                                  actionSubmitId: Topic.actionSubmitId
+
+                              outputType:
+                                properties:
+                                  actionSubmitId: String
+
+    - kind: BeginDialog
+      id: bDe82U
+      dialog: Default_cyberBuddy.topic.FurtherAssistancePrompt
+
+inputType: {}
+outputType: {}

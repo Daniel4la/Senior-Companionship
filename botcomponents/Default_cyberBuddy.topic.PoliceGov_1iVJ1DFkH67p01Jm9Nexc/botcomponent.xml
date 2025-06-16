@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.PoliceGov_1iVJ1DFkH67p01Jm9Nexc">
+  <componenttype>16</componenttype>
+  <description>When users ask about reporting cybersecurity incidents, refer to this website. It provides detailed information from Victoria Police on how to report fraud and scams, including online security incidents. The site explains the steps to take when you believe you've been a victim of a cyber attack, such as reporting phishing attempts, identity theft, or financial fraud. It also offers guidance on how to protect yourself and gather the necessary evidence before reporting to authorities, ensuring that users can take the right steps to address and resolve cybersecurity issues.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Police Gov</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.AustralianCyberGov_W3AIgaogIt6CDAf7uAqj2">
+  <componenttype>16</componenttype>
+  <description>When users ask for tips to stay cyber secure, provide information that guides them through the fundamental steps needed to protect themselves online. Based on trusted guidance from the website, this includes clear and reliable advice on creating strong and unique passwords, enabling two-factor authentication, identifying and avoiding scams, and regularly updating software and devices. These steps help users build good security habits, reduce their risk of cyber threats, and feel more confident navigating the digital world safely.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Australian Cyber Gov - Learn Basics</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.VicGovPasswords_0B2lS6QukHtdew8bGkRrn">
+  <componenttype>16</componenttype>
+  <description>This knowledge source searches information on the web found in https://www.vic.gov.au/passwords website when the user wants to improve or learn about account security</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Vic Gov Passwords</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

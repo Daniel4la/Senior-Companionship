@@ -1,0 +1,111 @@
+kind: AdaptiveDialog
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent:
+    displayName: Greeting
+    includeInOnSelectIntent: false
+    triggerQueries:
+      - Good afternoon
+      - Good morning
+      - Hello
+      - Hey
+      - Hi
+      - Good evening
+      - G'day
+
+  actions:
+    - kind: Question
+      id: question_p9pSzq
+      interruptionPolicy:
+        allowInterruption: false
+
+      variable: init:Topic.Var1
+      prompt: Hello {System.User.FirstName}! It's lovely to hear from you. What would you like to talk about today?
+      entity:
+        kind: EmbeddedEntity
+        definition:
+          kind: ClosedListEntity
+          items:
+            - id: Talk about my day
+              displayName: Talk about my day
+
+            - id: Get information on scams
+              displayName: Get information on scams
+
+            - id: Latest online threats
+              displayName: Latest online threats
+
+            - id: Online safety, payment safety and concerns
+              displayName: Online safety, payment safety and concerns
+
+            - id: Password and security management
+              displayName: Password and security management
+
+            - id: Reporting scams
+              displayName: Reporting scams
+
+            - id: Tips for scam identification
+              displayName: Tips for scam identification
+
+            - id: Assistance with scam recovery
+              displayName: Assistance with scam recovery
+
+    - kind: ConditionGroup
+      id: conditionGroup_eq451B
+      conditions:
+        - id: conditionItem_y9obmU
+          condition: =Topic.Var1 = 'Default_cyberBuddy.topic.Greeting.main.question_p9pSzq'.'Get information on scams'
+          actions:
+            - kind: BeginDialog
+              id: EiO8vJ
+              dialog: Default_cyberBuddy.topic.InformationonScams
+
+        - id: conditionItem_PQ7ARq
+          condition: =Topic.Var1 = 'Default_cyberBuddy.topic.Greeting.main.question_p9pSzq'.'Talk about my day'
+          actions:
+            - kind: BeginDialog
+              id: d5fyuN
+              dialog: Default_cyberBuddy.topic.DailyCheck-in
+
+        - id: conditionItem_6D4A0m
+          condition: =Topic.Var1 = 'Default_cyberBuddy.topic.Greeting.main.question_p9pSzq'.'Assistance with scam recovery'
+          actions:
+            - kind: BeginDialog
+              id: 1l4yxe
+              dialog: Default_cyberBuddy.topic.BeingScammed
+
+        - id: conditionItem_se5JNc
+          condition: =Topic.Var1 = 'Default_cyberBuddy.topic.Greeting.main.question_p9pSzq'.'Latest online threats'
+          actions:
+            - kind: BeginDialog
+              id: z3B578
+              dialog: Default_cyberBuddy.topic.ScamNews
+
+        - id: conditionItem_ihK1lM
+          condition: =Topic.Var1 = 'Default_cyberBuddy.topic.Greeting.main.question_p9pSzq'.'Online safety, payment safety and concerns'
+          actions:
+            - kind: BeginDialog
+              id: 3oV06h
+              dialog: Default_cyberBuddy.topic.OnlineShoppingandPaymentSafety
+
+        - id: conditionItem_LVIHA2
+          condition: =Topic.Var1 = 'Default_cyberBuddy.topic.Greeting.main.question_p9pSzq'.'Password and security management'
+          actions:
+            - kind: BeginDialog
+              id: dCvZSE
+              dialog: Default_cyberBuddy.topic.PasswordandSecurityManagement
+
+        - id: conditionItem_TVd69r
+          condition: =Topic.Var1 = 'Default_cyberBuddy.topic.Greeting.main.question_p9pSzq'.'Reporting scams'
+          actions:
+            - kind: BeginDialog
+              id: vmruqQ
+              dialog: Default_cyberBuddy.topic.ReportingScams
+
+        - id: conditionItem_Fvslle
+          condition: =Topic.Var1 = 'Default_cyberBuddy.topic.Greeting.main.question_p9pSzq'.'Tips for scam identification'
+          actions:
+            - kind: BeginDialog
+              id: A4DqhT
+              dialog: Default_cyberBuddy.topic.TipsforScamIdentification

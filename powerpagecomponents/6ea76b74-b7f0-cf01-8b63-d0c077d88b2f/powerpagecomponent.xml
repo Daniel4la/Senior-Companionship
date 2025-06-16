@@ -1,0 +1,23 @@
+<powerpagecomponent powerpagecomponentid="6ea76b74-b7f0-cf01-8b63-d0c077d88b2f">
+  <content>{
+  "filecontent": null,
+  "displayorder": 9,
+  "weblinksetid": "548eba46-8c95-476b-a98c-016b7e2b4109",
+  "pageid": "df144376-9d09-7f25-a492-b7cf2a2d3dfc",
+  "publishingstateid": "02906326-cb50-43a3-876e-fa32f591dfed",
+  "displaypagevalidation": false,
+  "displayimageonly": false,
+  "displaypagechildlinks": false,
+  "openinnewwindow": false,
+  "robotsfollowlink": true,
+  "parentweblinkid": null
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>News and Tips</name>
+  <powerpagecomponenttype>5</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>8a06a503-9ac7-4255-a18f-4522d3048b16</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

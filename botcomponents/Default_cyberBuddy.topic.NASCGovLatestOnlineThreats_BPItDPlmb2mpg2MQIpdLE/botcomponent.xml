@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.NASCGovLatestOnlineThreats_BPItDPlmb2mpg2MQIpdLE">
+  <componenttype>16</componenttype>
+  <description>This knowledge source searches information on the web found in https://www.nasc.gov.au/news website when the user wants to know about the latest online threats from the government</description>
+  <iscustomizable>0</iscustomizable>
+  <name>NASC Gov Latest Online Threats</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

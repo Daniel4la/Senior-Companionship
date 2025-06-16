@@ -1,0 +1,23 @@
+<powerpagecomponent powerpagecomponentid="5a35acaf-20e1-ece5-39a7-08307018284d">
+  <content>{
+  "filecontent": null,
+  "displayorder": 8,
+  "parentweblinkid": null,
+  "weblinksetid": "548eba46-8c95-476b-a98c-016b7e2b4109",
+  "pageid": "5d7ad6f1-7871-e799-94f2-03a7474be85c",
+  "publishingstateid": "02906326-cb50-43a3-876e-fa32f591dfed",
+  "displaypagevalidation": false,
+  "displayimageonly": false,
+  "displaypagechildlinks": false,
+  "openinnewwindow": false,
+  "robotsfollowlink": true
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Daily Games</name>
+  <powerpagecomponenttype>5</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>8a06a503-9ac7-4255-a18f-4522d3048b16</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

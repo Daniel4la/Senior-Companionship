@@ -1,0 +1,81 @@
+<powerpagecomponent powerpagecomponentid="af1527a8-ac2a-582d-84b9-e75a10078b4c">
+  <content>{
+  "filecontent": null,
+  "displayorder": 14,
+  "customcss": "@import url('https://content.powerapps.com/resource/powerappsportal/fonts/bitter/v32/400.css');\n@import url('https://content.powerapps.com/resource/powerappsportal/fonts/bitter/v32/400-italic.css');\n@import url('https://content.powerapps.com/resource/powerappsportal/fonts/bitter/v32/700.css');\n@import url('https://content.powerapps.com/resource/powerappsportal/fonts/bitter/v32/700-italic.css');\n@import url('https://content.powerapps.com/resource/powerappsportal/fonts/bitter/v32/500.css');\n@import url('https://content.powerapps.com/resource/powerappsportal/fonts/bitter/v32/500-italic.css');\n",
+  "customjavascript": "",
+  "pagetemplateid": "ee1fdcd4-1b8e-490d-911f-f64ae8dda846",
+  "parentpageid": "281b0136-b68b-4ae9-bf57-5f5ea2898081",
+  "partialurl": "Our-Story",
+  "isroot": false,
+  "rootwebpageid": "4f247960-36a4-11fb-b1fc-df1407ee2fbe",
+  "title": "Our Story",
+  "summary": "&lt;p&gt;This is a sample landing page designed to be a starting point for your website&lt;/p&gt;",
+  "copy": "&lt;div data-component-theme=\"portalThemeColor1\" class=\"row sectionBlockLayout text-start\" style=\"flex-wrap: wrap; margin: 0px; min-height: auto; padding: 0px; position: relative; display: block; height: 60px;\"&gt;\n  &lt;div class=\"container\" style=\"padding: 0px; display: flex; flex-wrap: wrap;\"&gt;&lt;div class=\"col-lg-12 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; margin: 6px 0px; padding: 10px;\"&gt;{% include 'Pages Breadcrumb' %}&lt;/div&gt;&lt;/div&gt;\n&lt;/div&gt;\n&lt;div data-component-theme=\"portalThemeColor8\" class=\"row sectionBlockLayout\" style='padding: 8px; margin: 0px; display: flex; flex-wrap: wrap; min-height: 50%; background-image: url(\"https://assets-us-01.kc-usercontent.com/ffacfe7d-10b6-0083-2632-604077fd4eca/fb92177b-70fd-4426-8f54-f20b832cbe82/Older-adult-couple-using-tablet-together_iStock-1327859132_2021-10_FB-1200x630.jpg\"); background-repeat: no-repeat; background-size: cover; background-position: center top;'&gt;\n  &lt;div class=\"container\"&gt;\n    &lt;div class=\"col-md-12 columnBlockLayout\" style=\"min-width: 250px; flex-grow: 1; display: flex; flex-direction: column; margin: 240px 0px;\"&gt;\n      &lt;h1 style=\"text-align: center;\"&gt;Our Story&lt;/h1&gt;\n      &lt;h4 style=\"text-align: center;\"&gt;Empowering Seniors with Cyber Security&lt;/h4&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;div data-component-theme=\"portalThemeColor3\" class=\"row sectionBlockLayout text-start\" style=\"display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;\"&gt;\n  &lt;div class=\"container\" style=\"padding: 0px; display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div class=\"col-lg-6 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 250px;\"&gt;&lt;img src=\"/helping seniors with computer.jpg\" alt=\"helping seniors with computer\" name=\"helping seniors with computer.jpg\" style=\"width: 100%; height: auto; max-width: 100%;\" /&gt;&lt;/div&gt;\n    &lt;div class=\"col-lg-6 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 250px;\"&gt;\n      &lt;h2 style=\"text-align: center; font-family: Bitter;\"&gt;​​&lt;u aria-label=\"Text Our Mission\" style=\"position: relative;\"&gt;Our Mission&lt;/u&gt;&lt;/h2&gt;\n      &lt;p style=\"text-align: center; font-family: Arial;\"&gt;​At the heart of our initiative lies a crucial mission: empowering senior citizens with the cyber security knowledge they need to navigate today's digital world safely and confidently.  &lt;br /&gt;&lt;br /&gt;Working in partnership with the Australian Red Cross and supported by Microsoft Australia, we've developed an innovative mobile and web-based application specifically designed for seniors.  &lt;br /&gt;&lt;br /&gt;Our solution prioritises accessibility, affordability and ethical considerations, ensuring it's not only effective for users but also practical for implementation by non-profit organisations across Australia and potentially beyond. Together, we're building a safer digital future for seniors—one click at a time.&lt;/p&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;div data-component-theme=\"portalThemeColor1\" class=\"row sectionBlockLayout text-start\" style=\"display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;\"&gt;\n  &lt;div class=\"container\" style=\"padding: 0px; display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div class=\"col-lg-12 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 250px;\"&gt;\n      &lt;img src=\"/shutterstock1813098424.jpg\" alt=\"shutterstock_1813098424\" name=\"shutterstock_1813098424.jpg\" style=\"max-width: 100%; width: 50%; margin-left: auto; margin-right: auto;\" /&gt;\n      &lt;h2 style=\"text-align: center; font-family: Bitter;\"&gt;About Our Product&lt;/h2&gt;\n      &lt;p style=\"text-align: center;\"&gt;We provide a user-friendly cyber security solution designed specifically for seniors, ensuring they can navigate the digital world safely and confidently.&lt;/p&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"row sectionBlockLayout text-start\" style=\"display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;\"&gt;\n  &lt;div class=\"container\" style=\"padding: 0px; display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div class=\"col-lg-12 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 250px;\"&gt;\n      &lt;img src=\"/Cyber-Security-8.jpg\" alt=\"Partnership with Microsoft\" style=\"max-width: 100%; width: 50%; margin-left: auto; margin-right: auto;\" /&gt;\n      &lt;h2 style=\"text-align: center; font-family: Bitter;\"&gt;Our Partnerships&lt;/h2&gt;\n      &lt;p style=\"text-align: center;\"&gt;In collaboration with Microsoft and the Red Cross Australia, we aim to enhance the safety and security of seniors online.&lt;/p&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;div data-component-theme=\"portalThemeColor6\" class=\"row sectionBlockLayout text-start\" style=\"display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;\"&gt;\n  &lt;div class=\"container\" style=\"padding: 0px; display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div class=\"col-lg-12 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 250px;\"&gt;\n      &lt;img src=\"/Cyber-Security-11.jpg\" alt=\"Cyber-Security-11\" name=\"Cyber-Security-11.jpg\" style=\"max-width: 100%; width: 50%; height: auto; margin-left: auto; margin-right: auto;\" /&gt;\n      &lt;h2 style=\"text-align: center; font-family: Bitter; color: var(--portalThemeColor8);\"&gt;Safe Online Practices&lt;/h2&gt;\n      &lt;p style=\"text-align: center; color: var(--portalThemeColor8);\"&gt;We promote safe online practices to ensure seniors can enjoy the benefits of technology without fear.&lt;/p&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n",
+  "publishingstateid": "02906326-cb50-43a3-876e-fa32f591dfed",
+  "enablerating": false,
+  "enabletracking": false,
+  "excludefromsearch": false,
+  "hiddenfromsitemap": true,
+  "sharedpageconfiguration": false
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Our Story</name>
+  <powerpagecomponenttype>2</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>8a06a503-9ac7-4255-a18f-4522d3048b16</powerpagesiteid>
+  </powerpagesiteid>
+  <powerpagesitelanguageid>
+    <powerpagesitelanguageid>75833fe0-0eb4-4fa4-98db-b96a7ac5b501</powerpagesitelanguageid>
+  </powerpagesitelanguageid>
+  <searchcontent>Our Story&lt;div data-component-theme="portalThemeColor1" class="row sectionBlockLayout text-start" style="flex-wrap: wrap; margin: 0px; min-height: auto; padding: 0px; position: relative; display: block; height: 60px;"&gt;
+  &lt;div class="container" style="padding: 0px; display: flex; flex-wrap: wrap;"&gt;&lt;div class="col-lg-12 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; margin: 6px 0px; padding: 10px;"&gt;{% include 'Pages Breadcrumb' %}&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div data-component-theme="portalThemeColor8" class="row sectionBlockLayout" style='padding: 8px; margin: 0px; display: flex; flex-wrap: wrap; min-height: 50%; background-image: url("https://assets-us-01.kc-usercontent.com/ffacfe7d-10b6-0083-2632-604077fd4eca/fb92177b-70fd-4426-8f54-f20b832cbe82/Older-adult-couple-using-tablet-together_iStock-1327859132_2021-10_FB-1200x630.jpg"); background-repeat: no-repeat; background-size: cover; background-position: center top;'&gt;
+  &lt;div class="container"&gt;
+    &lt;div class="col-md-12 columnBlockLayout" style="min-width: 250px; flex-grow: 1; display: flex; flex-direction: column; margin: 240px 0px;"&gt;
+      &lt;h1 style="text-align: center;"&gt;Our Story&lt;/h1&gt;
+      &lt;h4 style="text-align: center;"&gt;Empowering Seniors with Cyber Security&lt;/h4&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div data-component-theme="portalThemeColor3" class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;"&gt;
+  &lt;div class="container" style="padding: 0px; display: flex; flex-wrap: wrap;"&gt;
+    &lt;div class="col-lg-6 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px;"&gt;&lt;img src="/helping seniors with computer.jpg" alt="helping seniors with computer" name="helping seniors with computer.jpg" style="width: 100%; height: auto; max-width: 100%;" /&gt;&lt;/div&gt;
+    &lt;div class="col-lg-6 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px;"&gt;
+      &lt;h2 style="text-align: center; font-family: Bitter;"&gt;​​&lt;u aria-label="Text Our Mission" style="position: relative;"&gt;Our Mission&lt;/u&gt;&lt;/h2&gt;
+      &lt;p style="text-align: center; font-family: Arial;"&gt;​At the heart of our initiative lies a crucial mission: empowering senior citizens with the cyber security knowledge they need to navigate today's digital world safely and confidently.  &lt;br /&gt;&lt;br /&gt;Working in partnership with the Australian Red Cross and supported by Microsoft Australia, we've developed an innovative mobile and web-based application specifically designed for seniors.  &lt;br /&gt;&lt;br /&gt;Our solution prioritises accessibility, affordability and ethical considerations, ensuring it's not only effective for users but also practical for implementation by non-profit organisations across Australia and potentially beyond. Together, we're building a safer digital future for seniors—one click at a time.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div data-component-theme="portalThemeColor1" class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;"&gt;
+  &lt;div class="container" style="padding: 0px; display: flex; flex-wrap: wrap;"&gt;
+    &lt;div class="col-lg-12 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px;"&gt;
+      &lt;img src="/shutterstock1813098424.jpg" alt="shutterstock_1813098424" name="shutterstock_1813098424.jpg" style="max-width: 100%; width: 50%; margin-left: auto; margin-right: auto;" /&gt;
+      &lt;h2 style="text-align: center; font-family: Bitter;"&gt;About Our Product&lt;/h2&gt;
+      &lt;p style="text-align: center;"&gt;We provide a user-friendly cyber security solution designed specifically for seniors, ensuring they can navigate the digital world safely and confidently.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;"&gt;
+  &lt;div class="container" style="padding: 0px; display: flex; flex-wrap: wrap;"&gt;
+    &lt;div class="col-lg-12 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px;"&gt;
+      &lt;img src="/Cyber-Security-8.jpg" alt="Partnership with Microsoft" style="max-width: 100%; width: 50%; margin-left: auto; margin-right: auto;" /&gt;
+      &lt;h2 style="text-align: center; font-family: Bitter;"&gt;Our Partnerships&lt;/h2&gt;
+      &lt;p style="text-align: center;"&gt;In collaboration with Microsoft and the Red Cross Australia, we aim to enhance the safety and security of seniors online.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div data-component-theme="portalThemeColor6" class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;"&gt;
+  &lt;div class="container" style="padding: 0px; display: flex; flex-wrap: wrap;"&gt;
+    &lt;div class="col-lg-12 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px;"&gt;
+      &lt;img src="/Cyber-Security-11.jpg" alt="Cyber-Security-11" name="Cyber-Security-11.jpg" style="max-width: 100%; width: 50%; height: auto; margin-left: auto; margin-right: auto;" /&gt;
+      &lt;h2 style="text-align: center; font-family: Bitter; color: var(--portalThemeColor8);"&gt;Safe Online Practices&lt;/h2&gt;
+      &lt;p style="text-align: center; color: var(--portalThemeColor8);"&gt;We promote safe online practices to ensure seniors can enjoy the benefits of technology without fear.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+Our Story</searchcontent>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

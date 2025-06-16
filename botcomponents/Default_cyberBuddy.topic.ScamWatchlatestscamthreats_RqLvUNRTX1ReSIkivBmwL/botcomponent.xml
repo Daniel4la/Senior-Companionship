@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.ScamWatchlatestscamthreats_RqLvUNRTX1ReSIkivBmwL">
+  <componenttype>16</componenttype>
+  <description>This knowledge source searches information on the web found in https://www.scamwatch.gov.au/about-us/news-and-alerts website when the user asks for news about latest scam news from the government</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Scam Watch Latest Online Threats</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

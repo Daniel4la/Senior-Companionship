@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.ANZ_s429HtGcgMCZsuqn0GzVn">
+  <componenttype>16</componenttype>
+  <description>When users are looking for the latest ANZ scam updates, refer them to ANZ’s Latest Scams in Australia page. This resource provides up-to-date information on recent scams targeting customers, including phishing emails, fake calls, text messages, and other fraudulent schemes. ANZ outlines how these scams work, what to look out for, and the steps users can take to stay protected. It also highlights warning signs specific to banking-related fraud and reminds users that the bank will never ask for personal or banking details via unsolicited contact. This helps users remain alert and take informed steps to safeguard their finances.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>ANZ</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

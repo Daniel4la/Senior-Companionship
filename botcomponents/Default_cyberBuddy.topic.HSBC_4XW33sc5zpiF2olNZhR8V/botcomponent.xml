@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.HSBC_4XW33sc5zpiF2olNZhR8V">
+  <componenttype>16</componenttype>
+  <description>​When users inquire about the latest scams affecting HSBC customers, refer them to HSBC Australia's Security Centre. This resource offers up-to-date information on various scams, including bank impersonation, fake SMS messages, investment scams, and invoice fraud. It provides guidance on recognizing fraudulent communications, understanding common scam tactics, and steps to protect personal and financial information. Regularly consulting this page helps users stay informed about emerging threats and adopt necessary precautions to safeguard their banking activities.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>HSBC</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

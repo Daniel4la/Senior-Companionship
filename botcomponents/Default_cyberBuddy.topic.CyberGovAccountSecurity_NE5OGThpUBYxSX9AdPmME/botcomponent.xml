@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.CyberGovAccountSecurity_NE5OGThpUBYxSX9AdPmME">
+  <componenttype>16</componenttype>
+  <description>This knowledge source searches information on the web found in https://www.cyber.gov.au/protect-yourself/securing-your-accounts website when the user wants to improve their account security</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Cyber Gov Account Security</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

@@ -1,0 +1,47 @@
+kind: AdaptiveDialog
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent:
+    includeInOnSelectIntent: false
+    triggerQueries:
+      - What are the different types of scams?
+      - Can you list some common online scams?
+      - What scams should I watch out for?
+      - What kinds of scams target older people?
+      - What are the most dangerous scams right now?
+      - Are there scams going around on social media?
+      - What types of email scams exist?
+      - What are phone scams and how do they work?
+      - What are investment scams?
+      - Is there a scam where someone pretends to be from the government?
+      - What is a phishing scam?
+      - Are there scams involving online shopping?
+      - What are tech support scams?
+      - Is there a list of scams going around right now?
+      - What does a fake message look like?
+      - How do I know if something is a scam?
+      - What are the top scams targeting seniors?
+      - How do scammers usually contact people?
+      - I got a call saying I owe money—could it be fake?
+      - I received a suspicious email—should I open it?
+      - How can I tell if an email is a phishing scam?
+      - I got a message about a company asking for my details. Is this safe?
+
+  actions:
+    - kind: SearchAndSummarizeContent
+      id: c1VYfR
+      userInput: =System.LastMessage.Text
+      fileSearchDataSource:
+        searchFilesMode:
+          kind: DoNotSearchFiles
+
+      knowledgeSources:
+        kind: SearchSpecificKnowledgeSources
+        knowledgeSources:
+          - Default_cyberBuddy.topic.ScamWatchTypesofScams_HOOhkyT1zIacEbzO3vrfg
+          - Default_cyberBuddy.topic.AustralianCyberGovThreats_U5afodSQiEzLU_rCHDeO_
+          - Default_cyberBuddy.topic.UpGuard_CzJCV9YrEdTZagJT3Z3fQ
+
+inputType: {}
+outputType: {}

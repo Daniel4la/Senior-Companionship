@@ -1,0 +1,14 @@
+<powerpagecomponent powerpagecomponentid="88f44ba3-a50d-4b56-85e4-8f140efe1928">
+  <content>{"display_name":"Search/Facet/Sort Order/Average User Rating","type":756150000,"value":"Average User Ratings"}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Search/Facet/SortOrder/AverageUserRating</name>
+  <powerpagecomponenttype>7</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>8a06a503-9ac7-4255-a18f-4522d3048b16</powerpagesiteid>
+  </powerpagesiteid>
+  <powerpagesitelanguageid>
+    <powerpagesitelanguageid>75833fe0-0eb4-4fa4-98db-b96a7ac5b501</powerpagesitelanguageid>
+  </powerpagesitelanguageid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

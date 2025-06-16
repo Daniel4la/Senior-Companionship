@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.ABCLatestOnlineScams_SdKRP9g1vPu30CJCeFI4r">
+  <componenttype>16</componenttype>
+  <description>This knowledge source searches information on the web found in https://www.abc.net.au/news/topic website when user asks for the latest scams from online sources</description>
+  <iscustomizable>0</iscustomizable>
+  <name>ABC Latest Online Scams</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

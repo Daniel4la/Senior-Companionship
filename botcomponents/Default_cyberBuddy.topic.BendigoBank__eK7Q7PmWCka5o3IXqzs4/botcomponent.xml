@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.BendigoBank__eK7Q7PmWCka5o3IXqzs4">
+  <componenttype>16</componenttype>
+  <description>​When users inquire about the latest scams affecting Bendigo Bank customers, refer them to the bank's Scams page. This resource provides current information on various scams targeting customers, including impersonation scams, SMS phishing, and fraudulent emails. It offers guidance on recognizing fraudulent communications, understanding common scam tactics, and steps to protect personal and financial information. Regularly consulting this page helps users stay informed about emerging threats and adopt necessary precautions to safeguard their banking activities.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Bendigo Bank</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

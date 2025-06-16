@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.ACCCGovBuyingOnline_1PAe7T0LY7bkP9EnAHTtH">
+  <componenttype>16</componenttype>
+  <description>This knowledge source searches information on the web found in https://www.accc.gov.au/consumers website if the user has any online purchasing concerns</description>
+  <iscustomizable>0</iscustomizable>
+  <name>ACCC Gov Buying Online</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

@@ -1,0 +1,10 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.DailyCheck-in">
+  <componenttype>9</componenttype>
+  <iscustomizable>0</iscustomizable>
+  <name>Daily Check-in</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

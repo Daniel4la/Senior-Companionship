@@ -1,0 +1,19 @@
+<powerpagecomponent powerpagecomponentid="be056dd2-72ac-8a8f-5ebc-0b4f95a7729d">
+  <content>{
+  "webpageid": "e2be1903-854d-8932-9bcf-dcc925301777",
+  "right": 2,
+  "scope": 1,
+  "adx_webpageaccesscontrolrule_webrole": [
+    "a4c0d52c-74bc-40bb-8c6c-f20b6dc28518",
+    "1318d681-af69-4b46-a5fd-6156b93bd9b2"
+  ]
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Restrict Read on Ask Me Questions</name>
+  <powerpagecomponenttype>10</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>8a06a503-9ac7-4255-a18f-4522d3048b16</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

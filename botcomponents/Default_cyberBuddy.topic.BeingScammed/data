@@ -1,0 +1,87 @@
+kind: AdaptiveDialog
+modelDescription: This topic provides clear, step-by-step guidance for users who believe they’ve fallen victim to a scam. It offers practical advice on what immediate actions to take, such as securing personal accounts, contacting relevant authorities, and reporting the incident. The chatbot also provides trusted resources and contact information for support services like Scamwatch, IDCARE, and financial institutions. Designed with simplicity in mind, this topic aims to reassure and empower users, especially seniors, by helping them feel supported and informed during a stressful time.
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent:
+    triggerQueries:
+      - I think I’ve been scammed—what should I do?
+      - Someone took money from my account
+      - Can I get a refund if I was scammed online?
+      - I didn’t receive what I ordered online
+      - What should I do if I think I was scammed after buying something?
+      - I gave my details to a scammer. What do I do?
+      - I sent money to someone and now they’ve disappeared—what do I do?
+      - I clicked a suspicious link—am I in danger?
+      - Can I get my money back after a scam?
+      - Should I call my bank if I gave out my card number?
+      - Who do I tell if I was scammed?
+      - What should I do if I gave a scammer my details?
+      - Is it too late to stop a scam payment?
+      - How can I protect myself after being scammed?
+      - I think someone is using my identity—what do I do?
+      - Should I report the scam to the police?
+      - What’s the first thing to do after falling for a scam?
+      - I shared my credit card details—am I at risk?
+      - Can scammers access my phone or computer now?
+      - What are signs that I’ve been hacked or scammed?
+      - How do I block or stop the scammer from contacting me again?
+      - What to do when I have been scammed
+      - I have been caught in a scam, what do I do?
+      - Ive been in a scam, what do I do?
+
+  actions:
+    - kind: SearchAndSummarizeContent
+      id: 9XRlsz
+      userInput: =System.LastMessage.Text
+      fileSearchDataSource:
+        searchFilesMode:
+          kind: DoNotSearchFiles
+
+      knowledgeSources:
+        kind: SearchSpecificKnowledgeSources
+        knowledgeSources:
+          - Default_cyberBuddy.topic.AustralianCyberGovReportingScams_Gvhd7JFlMKFOO6ZFeD5YX
+          - Default_cyberBuddy.topic.ScamWatchWhattodowhenScammed_vwMlkdWWwRwpNmyo9AjRZ
+          - Default_cyberBuddy.topic.MoneySmartGovWhattodowhenScammed_PpbznEPDRvT6jmLSScLAg
+          - Default_cyberBuddy.topic.PoliceGov_1iVJ1DFkH67p01Jm9Nexc
+
+      applyModelKnowledgeSetting: false
+
+    - kind: Question
+      id: question_Obx7AP
+      interruptionPolicy:
+        allowInterruption: true
+
+      variable: init:Topic.ScamInput
+      prompt: Do you need help reaching out to organizations that can assist with the scam you’ve experienced?
+      entity:
+        kind: EmbeddedEntity
+        definition:
+          kind: ClosedListEntity
+          items:
+            - id: Yes
+              displayName: Yes
+
+            - id: No
+              displayName: No
+
+    - kind: ConditionGroup
+      id: conditionGroup_JLIC2O
+      conditions:
+        - id: conditionItem_DkXHe6
+          condition: =Topic.ScamInput = 'Default_cyberBuddy.topic.BeingScammed.main.question_Obx7AP'.Yes
+          actions:
+            - kind: BeginDialog
+              id: iYKE4B
+              dialog: Default_cyberBuddy.topic.ReportingScams
+
+        - id: conditionItem_vsTi17
+          condition: =Topic.ScamInput = 'Default_cyberBuddy.topic.BeingScammed.main.question_Obx7AP'.No
+          actions:
+            - kind: BeginDialog
+              id: dH48zl
+              dialog: Default_cyberBuddy.topic.FurtherAssistancePrompt
+
+inputType: {}
+outputType: {}

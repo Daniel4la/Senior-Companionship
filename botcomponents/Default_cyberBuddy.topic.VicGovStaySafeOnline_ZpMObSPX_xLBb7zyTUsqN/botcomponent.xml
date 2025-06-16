@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.VicGovStaySafeOnline_ZpMObSPX_xLBb7zyTUsqN">
+  <componenttype>16</componenttype>
+  <description>This knowledge source searches information on the web found in https://www.vic.gov.au/stay-safe-online website when users want to know how to stay safe online</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Vic Gov Stay Safe Online</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

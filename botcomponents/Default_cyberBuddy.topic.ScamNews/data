@@ -1,0 +1,543 @@
+kind: AdaptiveDialog
+modelDescription: This topic keeps users informed about the most recent scams reported by trusted sources, including major banks (e.g., NAB, CommBank), government agencies (e.g., Scamwatch, ACCC), and reliable online news outlets (e.g., ABC News). The chatbot provides up-to-date scam alerts with summaries, source names, dates, and direct links for more information. It helps users stay aware of new threats so they can better protect themselves, especially those who may be more vulnerable or less familiar with online risks.
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent:
+    includeInOnSelectIntent: false
+    triggerQueries:
+      - What are some of the latest scam news
+      - What are some of the current scams going around
+      - I want to know about scam alerts
+      - I want to know an update on fraud news
+      - What are some of the recent scams reported
+      - I want to know the latest news on scams
+      - Can you tell me about the latest scams?
+      - What are the latest scams in Australia?
+      - Are there any new scams I should know about?
+      - What scams are trending right now?
+      - Tell me the latest scam alerts.
+      - Have there been any new online scams recently?
+      - What’s the newest scam targeting old people?
+      - What scams should I watch out for this month?
+      - Any updates on current scam reports?
+      - What are people getting scammed by lately?
+      - What’s the most common scam happening now?
+      - I want to know about the latest trending scams
+
+  actions:
+    - kind: Question
+      id: Question_CC3UtW
+      variable: Topic.ScamSource
+      prompt: Where would you like to get the latest scam information from?
+      entity:
+        kind: EmbeddedEntity
+        definition:
+          kind: ClosedListEntity
+          optionSetName: ScamSourceOptions
+          items:
+            - id: banks
+              displayName: Banks
+
+            - id: government
+              displayName: Government Sources
+
+            - id: Online Sources
+              displayName: Online Sources
+
+    - kind: ConditionGroup
+      id: ConditionGroup_gFNZ5Z
+      conditions:
+        - id: ConditionItem_6CQt9x
+          condition: =Topic.ScamSource = ScamSourceOptions.banks
+          actions:
+            - kind: Question
+              id: question_esRpBH
+              interruptionPolicy:
+                allowInterruption: true
+
+              variable: Topic.BankOption
+              prompt: Which bank are you interested in checking for the latest scam and security alerts?
+              entity:
+                kind: EmbeddedEntity
+                definition:
+                  kind: ClosedListEntity
+                  items:
+                    - id: Commonwealth Bank
+                      displayName: Commonwealth Bank
+
+                    - id: Westpac
+                      displayName: Westpac
+
+                    - id: NAB
+                      displayName: NAB
+
+                    - id: ANZ
+                      displayName: ANZ
+
+                    - id: Bendigo Bank
+                      displayName: Bendigo Bank
+
+                    - id: HSBC
+                      displayName: HSBC
+
+            - kind: ConditionGroup
+              id: conditionGroup_EqQQZf
+              conditions:
+                - id: conditionItem_J21RDM
+                  condition: =Topic.BankOption = 'Default_cyberBuddy.topic.ScamNews.main.question_esRpBH'.Westpac
+                  actions:
+                    - kind: Question
+                      id: question_XKnV7i
+                      interruptionPolicy:
+                        allowInterruption: false
+
+                      variable: init:Topic.WestpacResponse
+                      prompt: What would you like to know about the latest scam news from **Westpac**?
+                      entity: StringPrebuiltEntity
+
+                    - kind: SearchAndSummarizeContent
+                      id: ieAZoP
+                      userInput: =Topic.WestpacResponse
+                      fileSearchDataSource:
+                        searchFilesMode:
+                          kind: DoNotSearchFiles
+
+                      knowledgeSources:
+                        kind: SearchSpecificKnowledgeSources
+                        knowledgeSources:
+                          - Default_cyberBuddy.topic.Westpac_Qk8ZLEZvhpXEI6PgZJD3Y
+
+                    - kind: Question
+                      id: question_BsuUCs
+                      interruptionPolicy:
+                        allowInterruption: true
+
+                      variable: init:Topic.ContinueWestpac
+                      prompt: Is there anything else you would like to know about **Westpac’s** latest scam alerts?
+                      entity:
+                        kind: EmbeddedEntity
+                        definition:
+                          kind: ClosedListEntity
+                          items:
+                            - id: Yes please!
+                              displayName: Yes please!
+
+                            - id: No thank you!
+                              displayName: No thank you!
+
+                        displayName: EmbeddedEntity-BunVDu
+
+                    - kind: ConditionGroup
+                      id: conditionGroup_xPdOfe
+                      conditions:
+                        - id: conditionItem_dHeK03
+                          condition: =Topic.ContinueWestpac = 'Default_cyberBuddy.topic.ScamNews.main.question_BsuUCs'.'Yes please!'
+                          actions:
+                            - kind: GotoAction
+                              id: mc1pfz
+                              actionId: question_XKnV7i
+
+                        - id: conditionItem_2FR7Ra
+                          condition: =Topic.ContinueWestpac = 'Default_cyberBuddy.topic.ScamNews.main.question_BsuUCs'.'No thank you!'
+
+                - id: conditionItem_AbRGE3
+                  condition: =Topic.BankOption = 'Default_cyberBuddy.topic.ScamNews.main.question_esRpBH'.NAB
+                  actions:
+                    - kind: Question
+                      id: question_6kWFQ7
+                      interruptionPolicy:
+                        allowInterruption: false
+
+                      variable: init:Topic.NABResponse
+                      prompt: What would you like to know about the latest scam news from **NAB**?
+                      entity: StringPrebuiltEntity
+
+                    - kind: SearchAndSummarizeContent
+                      id: dP1svp
+                      userInput: =Topic.NABResponse
+                      fileSearchDataSource:
+                        searchFilesMode:
+                          kind: DoNotSearchFiles
+
+                      knowledgeSources:
+                        kind: SearchSpecificKnowledgeSources
+                        knowledgeSources:
+                          - Default_cyberBuddy.topic.Nab_7qfNXFd9eBhrD_s_yJyjT
+
+                    - kind: Question
+                      id: question_CiXEN3
+                      interruptionPolicy:
+                        allowInterruption: true
+
+                      variable: init:Topic.ContinueNab
+                      prompt: Is there anything else you would like to know about **NAB's** latest scam alerts?
+                      entity:
+                        kind: EmbeddedEntity
+                        definition:
+                          kind: ClosedListEntity
+                          items:
+                            - id: Yes please!
+                              displayName: Yes please!
+
+                            - id: No thank you!
+                              displayName: No thank you!
+
+                    - kind: ConditionGroup
+                      id: conditionGroup_2obgIn
+                      conditions:
+                        - id: conditionItem_cdHTUV
+                          condition: =Topic.ContinueNab = 'Default_cyberBuddy.topic.ScamNews.main.question_CiXEN3'.'Yes please!'
+                          actions:
+                            - kind: GotoAction
+                              id: mjJEcT
+                              actionId: question_6kWFQ7
+
+                        - id: conditionItem_7DxVus
+                          condition: =Topic.ContinueNab = 'Default_cyberBuddy.topic.ScamNews.main.question_CiXEN3'.'No thank you!'
+
+                - id: conditionItem_xRGMhK
+                  condition: =Topic.BankOption = 'Default_cyberBuddy.topic.ScamNews.main.question_esRpBH'.HSBC
+                  actions:
+                    - kind: Question
+                      id: question_hdPAEd
+                      interruptionPolicy:
+                        allowInterruption: false
+
+                      variable: init:Topic.HSBCResponse
+                      prompt: What would you like to know about the latest scam news from **HSBC**?
+                      entity: StringPrebuiltEntity
+
+                    - kind: SearchAndSummarizeContent
+                      id: 0bIHy4
+                      userInput: =Topic.HSBCResponse
+                      fileSearchDataSource:
+                        searchFilesMode:
+                          kind: DoNotSearchFiles
+
+                      knowledgeSources:
+                        kind: SearchSpecificKnowledgeSources
+                        knowledgeSources:
+                          - Default_cyberBuddy.topic.HSBC_4XW33sc5zpiF2olNZhR8V
+
+                    - kind: Question
+                      id: question_zN0fwn
+                      interruptionPolicy:
+                        allowInterruption: true
+
+                      variable: init:Topic.ContinueHSBC
+                      prompt: Is there anything else you would like to know about **HSBC's** latest scam alerts?
+                      entity:
+                        kind: EmbeddedEntity
+                        definition:
+                          kind: ClosedListEntity
+                          items:
+                            - id: Yes please!
+                              displayName: Yes please!
+
+                            - id: No thank you!
+                              displayName: No thank you!
+
+                    - kind: ConditionGroup
+                      id: conditionGroup_y4ggBB
+                      conditions:
+                        - id: conditionItem_7E6yyN
+                          condition: =Topic.ContinueHSBC = 'Default_cyberBuddy.topic.ScamNews.main.question_zN0fwn'.'Yes please!'
+                          actions:
+                            - kind: GotoAction
+                              id: 1Pm5RO
+                              actionId: question_hdPAEd
+
+                        - id: conditionItem_39yVwH
+                          condition: =Topic.ContinueHSBC = 'Default_cyberBuddy.topic.ScamNews.main.question_zN0fwn'.'No thank you!'
+
+                - id: conditionItem_wugNN8
+                  condition: =Topic.BankOption = 'Default_cyberBuddy.topic.ScamNews.main.question_esRpBH'.'Commonwealth Bank'
+                  actions:
+                    - kind: Question
+                      id: question_pip4Tt
+                      interruptionPolicy:
+                        allowInterruption: false
+                        interruptionTopicListFilter:
+                          kind: IncludeSelectedTopics
+
+                      variable: init:Topic.CommonwealthBankResponse
+                      prompt: What would you like to know about the latest scam news from **Commonwealth Bank**?
+                      entity: StringPrebuiltEntity
+
+                    - kind: SearchAndSummarizeContent
+                      id: pd7ilh
+                      userInput: =Topic.CommonwealthBankResponse
+                      fileSearchDataSource:
+                        searchFilesMode:
+                          kind: DoNotSearchFiles
+
+                      knowledgeSources:
+                        kind: SearchSpecificKnowledgeSources
+                        knowledgeSources:
+                          - Default_cyberBuddy.topic.Commbank_2hFdYGvGHKpi0fDLoFlsh
+
+                    - kind: Question
+                      id: question_d0GihJ
+                      interruptionPolicy:
+                        allowInterruption: true
+
+                      variable: init:Topic.ContinueCommbank
+                      prompt: Is there anything else you would like to know about **Commbanks** latest scam alerts?
+                      entity:
+                        kind: EmbeddedEntity
+                        definition:
+                          kind: ClosedListEntity
+                          items:
+                            - id: Yes please!
+                              displayName: Yes please!
+
+                            - id: No thank you!
+                              displayName: No thank you!
+
+                    - kind: ConditionGroup
+                      id: conditionGroup_UKUN2P
+                      conditions:
+                        - id: conditionItem_h4lkYX
+                          condition: =Topic.ContinueCommbank = 'Default_cyberBuddy.topic.ScamNews.main.question_d0GihJ'.'Yes please!'
+                          actions:
+                            - kind: GotoAction
+                              id: KNLHJ0
+                              actionId: question_pip4Tt
+
+                        - id: conditionItem_PtKHAn
+                          condition: =Topic.ContinueCommbank = 'Default_cyberBuddy.topic.ScamNews.main.question_d0GihJ'.'No thank you!'
+
+                - id: conditionItem_aNuE1e
+                  condition: =Topic.BankOption = 'Default_cyberBuddy.topic.ScamNews.main.question_esRpBH'.'Bendigo Bank'
+                  actions:
+                    - kind: Question
+                      id: question_w8aW6W
+                      interruptionPolicy:
+                        allowInterruption: false
+
+                      variable: init:Topic.BendigoBankResponse
+                      prompt: What would you like to know about the latest scam news from **Bendigo Bank**?
+                      entity: StringPrebuiltEntity
+
+                    - kind: SearchAndSummarizeContent
+                      id: LB4V5q
+                      userInput: =Topic.BendigoBankResponse
+                      fileSearchDataSource:
+                        searchFilesMode:
+                          kind: DoNotSearchFiles
+
+                      knowledgeSources:
+                        kind: SearchSpecificKnowledgeSources
+                        knowledgeSources:
+                          - Default_cyberBuddy.topic.BendigoBank__eK7Q7PmWCka5o3IXqzs4
+
+                    - kind: Question
+                      id: question_LZx0aY
+                      interruptionPolicy:
+                        allowInterruption: true
+
+                      variable: init:Topic.ContinueBendigo
+                      prompt: Is there anything else you would like to know about **Bendigo Banks** latest scam alerts?
+                      entity:
+                        kind: EmbeddedEntity
+                        definition:
+                          kind: ClosedListEntity
+                          items:
+                            - id: Yes please!
+                              displayName: Yes please!
+
+                            - id: No thank you!
+                              displayName: No thank you!
+
+                    - kind: ConditionGroup
+                      id: conditionGroup_T0pro8
+                      conditions:
+                        - id: conditionItem_DqGzNu
+                          condition: =Topic.ContinueBendigo = 'Default_cyberBuddy.topic.ScamNews.main.question_LZx0aY'.'Yes please!'
+                          actions:
+                            - kind: GotoAction
+                              id: nrnzoX
+                              actionId: question_w8aW6W
+
+                        - id: conditionItem_or94NB
+                          condition: =Topic.ContinueBendigo = 'Default_cyberBuddy.topic.ScamNews.main.question_LZx0aY'.'No thank you!'
+
+                - id: conditionItem_0a9CFO
+                  condition: =Topic.BankOption = 'Default_cyberBuddy.topic.ScamNews.main.question_esRpBH'.ANZ
+                  actions:
+                    - kind: Question
+                      id: question_jirDWv
+                      interruptionPolicy:
+                        allowInterruption: false
+
+                      variable: init:Topic.ANZResponse
+                      prompt: What would you like to know about the latest scam news from **ANZ**?
+                      entity: StringPrebuiltEntity
+
+                    - kind: SearchAndSummarizeContent
+                      id: dV4M92
+                      userInput: =Topic.ANZResponse
+                      fileSearchDataSource:
+                        searchFilesMode:
+                          kind: DoNotSearchFiles
+
+                      knowledgeSources:
+                        kind: SearchSpecificKnowledgeSources
+                        knowledgeSources:
+                          - Default_cyberBuddy.topic.ANZ_s429HtGcgMCZsuqn0GzVn
+
+                    - kind: Question
+                      id: question_UnDyN5
+                      interruptionPolicy:
+                        allowInterruption: true
+
+                      variable: init:Topic.ContinueANZ
+                      prompt: Is there anything else you would like to know about **ANZ's** latest scam alerts?
+                      entity:
+                        kind: EmbeddedEntity
+                        definition:
+                          kind: ClosedListEntity
+                          items:
+                            - id: Yes please!
+                              displayName: Yes please!
+
+                            - id: No thank you!
+                              displayName: No thank you!
+
+                    - kind: ConditionGroup
+                      id: conditionGroup_wEWoKV
+                      conditions:
+                        - id: conditionItem_x6ydVu
+                          condition: =Topic.ContinueANZ = 'Default_cyberBuddy.topic.ScamNews.main.question_UnDyN5'.'Yes please!'
+                          actions:
+                            - kind: GotoAction
+                              id: 9jrLnI
+                              actionId: question_jirDWv
+
+                        - id: conditionItem_IZ8eCu
+                          condition: =Topic.ContinueANZ = 'Default_cyberBuddy.topic.ScamNews.main.question_UnDyN5'.'No thank you!'
+
+        - id: ConditionItem_810Y3m
+          condition: =Topic.ScamSource = ScamSourceOptions.government
+          actions:
+            - kind: Question
+              id: question_L9fwSH
+              interruptionPolicy:
+                allowInterruption: false
+
+              variable: init:Topic.GovernmentResponse
+              prompt: What **Government** scam alerts would you like to hear about today?
+              entity: StringPrebuiltEntity
+
+            - kind: SearchAndSummarizeContent
+              id: wGO4QP
+              userInput: =Topic.GovernmentResponse
+              fileSearchDataSource:
+                searchFilesMode:
+                  kind: DoNotSearchFiles
+
+              knowledgeSources:
+                kind: SearchSpecificKnowledgeSources
+                knowledgeSources:
+                  - Default_cyberBuddy.topic.NASCGovLatestOnlineThreats_BPItDPlmb2mpg2MQIpdLE
+                  - Default_cyberBuddy.topic.ScamWatchlatestscamthreats_RqLvUNRTX1ReSIkivBmwL
+
+            - kind: Question
+              id: question_lSvPHh
+              interruptionPolicy:
+                allowInterruption: true
+
+              variable: init:Topic.ContinueGovernment
+              prompt: Is there anything else you would like to know about the **Government's** latest scam alerts?
+              entity:
+                kind: EmbeddedEntity
+                definition:
+                  kind: ClosedListEntity
+                  items:
+                    - id: Yes Please!
+                      displayName: Yes please!
+
+                    - id: No Thank you!
+                      displayName: No thank you!
+
+            - kind: ConditionGroup
+              id: conditionGroup_4T2Bvr
+              conditions:
+                - id: conditionItem_DYLnJT
+                  condition: =Topic.ContinueGovernment = 'Default_cyberBuddy.topic.ScamNews.main.question_lSvPHh'.'Yes Please!'
+                  actions:
+                    - kind: GotoAction
+                      id: kgY43T
+                      actionId: question_L9fwSH
+
+                - id: conditionItem_AFwr6F
+                  condition: =Topic.ContinueGovernment = 'Default_cyberBuddy.topic.ScamNews.main.question_lSvPHh'.'No Thank you!'
+
+        - id: ConditionItem_xxQMlD
+          condition: =Topic.ScamSource = ScamSourceOptions.'Online Sources'
+          actions:
+            - kind: Question
+              id: question_baQYKu
+              interruptionPolicy:
+                allowInterruption: true
+
+              variable: init:Topic.OnlineResponse
+              prompt: What **Online** scam news would you like to check today?
+              entity: StringPrebuiltEntity
+
+            - kind: SearchAndSummarizeContent
+              id: lTkI08
+              userInput: =Topic.OnlineResponse
+              fileSearchDataSource:
+                searchFilesMode:
+                  kind: DoNotSearchFiles
+
+              knowledgeSources:
+                kind: SearchSpecificKnowledgeSources
+                knowledgeSources:
+                  - Default_cyberBuddy.topic.ABCLatestOnlineScams_SdKRP9g1vPu30CJCeFI4r
+                  - Default_cyberBuddy.topic.9news_QEsWmz4oPC2EuMvZ2rjhO
+
+            - kind: Question
+              id: question_lrdlkf
+              interruptionPolicy:
+                allowInterruption: true
+
+              variable: init:Topic.ContinueOnine
+              prompt: Is there anything else you would like to know about the latest scam alerts from **Online Sources**?
+              entity:
+                kind: EmbeddedEntity
+                definition:
+                  kind: ClosedListEntity
+                  items:
+                    - id: Yes Please!
+                      displayName: Yes please!
+
+                    - id: No Thank you!
+                      displayName: No thank you!
+
+            - kind: ConditionGroup
+              id: conditionGroup_McwVbx
+              conditions:
+                - id: conditionItem_ibkL2M
+                  condition: =Topic.ContinueOnine = 'Default_cyberBuddy.topic.ScamNews.main.question_lrdlkf'.'Yes Please!'
+                  actions:
+                    - kind: GotoAction
+                      id: EgjcU7
+                      actionId: question_baQYKu
+
+                - id: conditionItem_DfD1Ld
+                  condition: =Topic.ContinueOnine = 'Default_cyberBuddy.topic.ScamNews.main.question_lrdlkf'.'No thank you!'
+
+      elseActions:
+        - kind: SendActivity
+          id: SendActivity_DF5DdF
+          activity: We cannot proceed with your request.
+
+    - kind: BeginDialog
+      id: 3itMa9
+      dialog: Default_cyberBuddy.topic.FurtherAssistancePrompt
+
+inputType: {}
+outputType: {}

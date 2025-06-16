@@ -1,0 +1,148 @@
+kind: AdaptiveDialog
+startBehavior: CancelOtherTopics
+beginDialog:
+  kind: OnEscalate
+  id: main
+  intent:
+    displayName: Escalate
+    includeInOnSelectIntent: false
+    triggerQueries:
+      - Talk to agent
+      - Talk to a person
+      - Talk to someone
+      - Call back
+      - Call customer service
+      - Call me please
+      - Call support
+      - Call technical support
+      - Can an agent call me
+      - Can I call
+      - Can I get in touch with someone else
+      - Can I get real agent support
+      - Can I get transferred to a person to call
+      - Can I have a call in number Or can I be called
+      - Can I have a representative call me
+      - Can I schedule a call
+      - Can I speak to a representative
+      - Can I talk to a human
+      - Can I talk to a human assistant
+      - Can someone call me
+      - Chat with a human
+      - Chat with a representative
+      - Chat with agent
+      - Chat with someone please
+      - Connect me to a live agent
+      - Connect me to a person
+      - Could some one contact me by phone
+      - Customer agent
+      - Customer representative
+      - Customer service
+      - I need a manager to contact me
+      - I need customer service
+      - I need help from a person
+      - I need to speak with a live argent
+      - I need to talk to a specialist please
+      - I want to talk to customer service
+      - I want to proceed with live support
+      - I want to speak with a consultant
+      - I want to speak with a live tech
+      - I would like to speak with an associate
+      - I would like to talk to a technician
+      - Talk with tech support member
+      - Contact relatives
+      - Contact trusted people
+      - Contact emergency contacts
+      - Emergency contacts
+
+  actions:
+    - kind: SearchAndSummarizeContent
+      id: q3sVW8
+      variable: Topic.contactList
+      userInput: =System.LastMessage.Text
+      additionalInstructions: Just list all trusted contact names and emails from the document. Don't say anything else
+      fileSearchDataSource:
+        searchFilesMode:
+          kind: SearchSpecificFiles
+          files:
+            - Default_cyberBuddy.file.TrustedContactsList.txt_Opk
+
+      knowledgeSources:
+        kind: SearchSpecificKnowledgeSources
+
+    - kind: Question
+      id: question_UMZn1y
+      interruptionPolicy:
+        allowInterruption: true
+
+      variable: init:Topic.contactName
+      prompt: Who would you like to contact?
+      entity: StringPrebuiltEntity
+
+    - kind: SearchAndSummarizeContent
+      id: RqdxuT
+      latencyMessageSettings:
+        allowLatencyMessage: false
+
+      autoSend: false
+      variable: Topic.selectedEmail
+      userInput: =Topic.contactName
+      additionalInstructions: |-
+        The user wants to contact {Topic.contactName}.
+        Change the string to lowercase. Find that name in the document and return ONLY the raw email address.
+        Do not include any additional text, formatting, or citation.
+        Just return the email address similar to: alice@example.com
+      fileSearchDataSource:
+        searchFilesMode:
+          kind: SearchSpecificFiles
+          files:
+            - Default_cyberBuddy.file.TrustedContactsList.txt_Opk
+
+      knowledgeSources:
+        kind: SearchSpecificKnowledgeSources
+
+    - kind: SearchAndSummarizeContent
+      id: 7OdcR6
+      latencyMessageSettings:
+        allowLatencyMessage: false
+
+      autoSend: false
+      variable: Topic.selectedName
+      userInput: =Topic.contactName
+      additionalInstructions: |-
+        The user wants to contact {Topic.contactName}.
+        Find that contact in the document and return ONLY the name.
+        Do not include any additional text, formatting, or citation.
+        Just return something like: alice
+      fileSearchDataSource:
+        searchFilesMode:
+          kind: SearchSpecificFiles
+          files:
+            - Default_cyberBuddy.file.TrustedContactsList.txt_Opk
+
+      knowledgeSources:
+        kind: SearchSpecificKnowledgeSources
+
+    - kind: InvokeFlowAction
+      id: invokeFlowAction_Mo0by7
+      input:
+        binding:
+          text: =Topic.selectedEmail
+          text_1: =System.User.FirstName
+          text_2: =Topic.selectedName
+
+      output:
+        binding:
+          output: Topic.output
+
+      flowId: 34b93efc-a272-6134-1698-7610c15e2c52
+
+    - kind: SendActivity
+      id: sendActivity_8ib3jD
+      activity: "{Topic.output}"
+
+    - kind: BeginDialog
+      id: tKhl90
+      dialog: Default_cyberBuddy.topic.FurtherAssistancePrompt
+
+inputType: {}
+outputType: {}

@@ -1,0 +1,4 @@
+kind: KnowledgeSourceConfiguration
+source:
+  kind: PublicSiteSearchSource
+  site: https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online

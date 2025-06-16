@@ -1,0 +1,17 @@
+<powerpagecomponent powerpagecomponentid="e62b1b56-30b9-0bf0-f923-839eb68befc5">
+  <content>{
+  "filecontent": null,
+  "webpageid": "5d7ad6f1-7871-e799-94f2-03a7474be85c",
+  "right": 2,
+  "scope": 1,
+  "adx_webpageaccesscontrolrule_webrole": []
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Restrict Read on Daily Games</name>
+  <powerpagecomponenttype>10</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>8a06a503-9ac7-4255-a18f-4522d3048b16</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>1</statecode>
+  <statuscode>2</statuscode>
+</powerpagecomponent>

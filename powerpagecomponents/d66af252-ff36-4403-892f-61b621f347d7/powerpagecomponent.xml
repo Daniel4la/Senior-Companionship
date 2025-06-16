@@ -1,0 +1,92 @@
+<powerpagecomponent powerpagecomponentid="d66af252-ff36-4403-892f-61b621f347d7">
+  <content>{
+  "filecontent": null,
+  "copy": "&lt;div data-component-theme=\"portalThemeColor1\" class=\"row sectionBlockLayout\" style=\"padding: 8px; margin: 0px; display: flex; flex-wrap: wrap; text-align: left; min-height: auto; height: 638px;\"&gt;\n  &lt;div class=\"container\" style=\"padding: 0px; display: flex; flex-wrap: wrap; flex-direction: row-reverse;\"&gt;\n    &lt;div class=\"col-lg-6 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;\"&gt;&lt;img src=\"/image-Photoroom.png\" alt=\"image-Photoroom\" name=\"image-Photoroom.png\" style=\"width: 157%; height: 498px; max-width: 100%; box-shadow: 0px 0px 0px #000000; margin: 0 0 0 auto; padding: 0px 0px 0px 0px; top: 5%;\" /&gt;&lt;/div&gt;\n    &lt;div class=\"col-lg-6 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;\"&gt;\n      &lt;h1 style=\"text-align: center; font-family: Bitter; font-size: 60px; top: 17%;\"&gt;A Safe Digital Journey, &lt;br /&gt;One Conversation at a Time&lt;/h1&gt;\n      &lt;button onclick=\"window.location.href='/Chat'\" type=\"button\" value=\"/Chat\" class=\"button1\" style=\"height: 58px; width: 313px; font-family: Bitter; font-weight: 700; font-size: 21px; margin: 41px auto 0px auto; top: 13%;\"&gt;Click Here to Message Now&lt;/button&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"row sectionBlockLayout\" style=\"padding: 0px; margin: 0px; display: flex; flex-wrap: wrap; text-align: left; min-height: auto; transform: rotateZ(0deg) scaleX(1) scaleY(1) translateX(0px) translateY(0px);\"&gt;\n  &lt;div class=\"container\" style=\"padding: 0px; display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div class=\"col-lg-4 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;\"&gt;\n      &lt;img src=\"/Circle-1.png\" alt=\"\" name=\"Circle-1.png\" style=\"width: 108px; height: 108px; max-width: 100%; margin-left: auto; margin-right: auto;\" /&gt;\n      &lt;h3 style=\"text-align: center; font-family: Bitter; font-size: 35px;\"&gt;AI Chatbot Assistant&lt;/h3&gt;\n      &lt;p style=\"text-align: center; top: 10px; font-family: Arial;\"&gt;Speak openly with your online companion about any strange links or potential viruses for more clarity.&lt;/p&gt;\n    &lt;/div&gt;\n    &lt;div class=\"col-lg-4 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;\"&gt;\n      &lt;img src=\"/Circle-2.png\" alt=\"\" name=\"Circle-2.png\" style=\"width: 108px; height: 108px; max-width: 100%; margin-left: auto; margin-right: auto;\" /&gt;\n      &lt;h3 style=\"text-align: center; font-family: Bitter; font-size: 35px;\"&gt;Educational Material&lt;/h3&gt;\n      &lt;p style=\"text-align: center; top: 10px; font-family: Arial;\"&gt;Explore easy-to-understand guides and tips to help you stay safe from online scams, threats, and digital risks.&lt;/p&gt;\n    &lt;/div&gt;\n    &lt;div class=\"col-lg-4 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;\"&gt;\n      &lt;img src=\"/Circle-3.png\" alt=\"\" name=\"Circle-3.png\" style=\"width: 108px; height: 108px; max-width: 100%; margin-left: auto; margin-right: auto;\" /&gt;\n      &lt;h3 style=\"text-align: center; font-size: 35px; font-family: Bitter;\"&gt;Daily Games&lt;/h3&gt;\n      &lt;p style=\"text-align: center; top: 10px; font-family: Arial;\"&gt;Stay up to date with cyber threats in a fun and interactive with our daily games and challenges.&lt;/p&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;div data-component-theme=\"portalThemeColor6\" class=\"row sectionBlockLayout text-start\" style=\"flex-wrap: wrap; margin: 0px; min-height: auto; padding: 0px; display: block; position: relative; opacity: 1;\"&gt;\n  &lt;div class=\"container\" style=\"padding: 0px; display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div class=\"col-lg-6 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 250px;\"&gt;&lt;img src=\"/gettyimages-1354195155-640x640.jpg\" alt=\"gettyimages-1354195155-640x640\" name=\"gettyimages-1354195155-640x640.jpg\" style=\"width: 100%; height: auto; max-width: 100%; margin-left: 0; margin-right: auto;\" /&gt;&lt;/div&gt;\n    &lt;div class=\"col-lg-6 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 250px;\"&gt;\n      &lt;h1 style=\"text-align: center; box-shadow: 0px 0px 0px #88ABA2; border-radius: 0px 0px 0px 0px; border: 0px solid rgb(42, 44, 46); opacity: 1; background-color: rgba(0, 0, 0, 0);\"&gt;Emergency Contact​&lt;/h1&gt;\n      &lt;p style=\"text-align: center;\"&gt;Need help right away? Call our support line to speak directly with a voice agent trained to guide you through urgent digital concerns quickly and calmly.&lt;/p&gt;\n      &lt;p style=\"text-align: center; box-shadow: 0px 0px 0px #000000; text-shadow: 0px 0px 0px #000000; border: 0px solid rgb(42, 44, 46); border-radius: 0px 0px 0px 0px; opacity: 1; background-color: rgba(0, 0, 0, 0);\"&gt;​​&lt;a href=\"tel:+61483901943\" aria-label=\"Link +61 483 901 943 Press enter to edit\" style=\"font-weight: bold; text-decoration: underline; color: inherit; color: #D22B2B; font-size: 26px;\"&gt;+61 483 901 943&lt;/a&gt;&lt;/p&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;div data-component-theme=\"portalThemeColor1\" class=\"row sectionBlockLayout text-start\" style=\"display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;\"&gt;\n  &lt;div class=\"container\" style=\"padding: 0px; display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div class=\"col-lg-6 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 250px;\"&gt;\n      &lt;h1 style=\"text-align: center;\"&gt;​Daily Games &amp;amp; Challenges!&lt;br draggable=\"true\" /&gt;&lt;/h1&gt;\n      &lt;p style=\"text-align: center; font-family: Arial;\"&gt;​Stay sharp and build your online safety skills with quick, fun challenges made just for you. Every day brings something new to keep you engaged and learning. &lt;br /&gt;&lt;br /&gt;Ready to play? Let’s begin today’s challenge and take one step closer to becoming a cybersecurity pro!&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;\n      &lt;a href=\"/Daily-Games\" class=\"btn button1\" style=\"margin-left: auto; margin-right: auto; width: 365px; height: 55px; font-size: 27px;\"&gt;Click Here to Play Now!&lt;/a&gt;\n    &lt;/div&gt;\n    &lt;div class=\"col-lg-6 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 250px;\"&gt;&lt;img src=\"/Senior App.png\" alt=\"Senior App\" name=\"Senior App.png\" style=\"width: 133%; height: 430px; max-width: 100%; margin-left: auto; margin-right: auto;\" /&gt;&lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;div data-component-theme=\"portalThemeColor3\" class=\"row sectionBlockLayout\" style=\"padding: 8px; margin: 0px; display: flex; flex-wrap: wrap; text-align: left; min-height: auto;\"&gt;\n  &lt;div class=\"container\" style=\"padding: 0px; display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div class=\"col-lg-6 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;\"&gt;&lt;img src=\"/Geometric-2.png\" alt=\"\" name=\"Geometric-2.png\" style=\"width: 102.56%; height: 343px; max-width: 100%;\" /&gt;&lt;/div&gt;\n    &lt;div class=\"col-lg-6 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;\"&gt;\n      &lt;h1 style=\"text-align: left;\"&gt;About Us&lt;/h1&gt;\n      &lt;p style=\"font-family: Arial;\"&gt;We’re dedicated to help seniors stay safe online by providing easy-to-use cyber security resources and tools. In partnership with the Australian Red Cross and supported by Microsoft Australia, we’ve created a user-friendly app that supports older users in navigating the digital world safely.&lt;/p&gt;\n      &lt;button onclick=\"window.location.href='/Our-Story'\" type=\"button\" value=\"/Our-Story\" class=\"button1\"&gt;Read our story&lt;/button&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n",
+  "displayorder": 1,
+  "enablerating": false,
+  "enabletracking": false,
+  "excludefromsearch": false,
+  "feedbackpolicy": 756150005,
+  "hiddenfromsitemap": false,
+  "isroot": false,
+  "pagetemplateid": "ee1fdcd4-1b8e-490d-911f-f64ae8dda846",
+  "partialurl": "/",
+  "publishingstateid": "02906326-cb50-43a3-876e-fa32f591dfed",
+  "rootwebpageid": "281b0136-b68b-4ae9-bf57-5f5ea2898081",
+  "sharedpageconfiguration": false,
+  "summary": "&lt;p&gt;This is a sample landing page for you to start creating your website.&lt;/p&gt;",
+  "title": "Home",
+  "parentpageid": null,
+  "customcss": "@import url('https://content.powerapps.com/resource/powerappsportal/fonts/bitter/v32/500.css');\n@import url('https://content.powerapps.com/resource/powerappsportal/fonts/bitter/v32/500-italic.css');\n@import url('https://content.powerapps.com/resource/powerappsportal/fonts/bitter/v32/400.css');\n@import url('https://content.powerapps.com/resource/powerappsportal/fonts/bitter/v32/400-italic.css');\n@import url('https://content.powerapps.com/resource/powerappsportal/fonts/bitter/v32/700.css');\n@import url('https://content.powerapps.com/resource/powerappsportal/fonts/bitter/v32/700-italic.css');\n@import url('https://content.powerapps.com/resource/powerappsportal/fonts/bitter/v32/800.css');\n@import url('https://content.powerapps.com/resource/powerappsportal/fonts/bitter/v32/800-italic.css');\n@import url('https://content.powerapps.com/resource/powerappsportal/fonts/bitter/v32/600.css');\n@import url('https://content.powerapps.com/resource/powerappsportal/fonts/bitter/v32/600-italic.css');\n"
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Home</name>
+  <powerpagecomponenttype>2</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>8a06a503-9ac7-4255-a18f-4522d3048b16</powerpagesiteid>
+  </powerpagesiteid>
+  <powerpagesitelanguageid>
+    <powerpagesitelanguageid>75833fe0-0eb4-4fa4-98db-b96a7ac5b501</powerpagesitelanguageid>
+  </powerpagesitelanguageid>
+  <searchcontent>Home&lt;div data-component-theme="portalThemeColor1" class="row sectionBlockLayout" style="padding: 8px; margin: 0px; display: flex; flex-wrap: wrap; text-align: left; min-height: auto; height: 638px;"&gt;
+  &lt;div class="container" style="padding: 0px; display: flex; flex-wrap: wrap; flex-direction: row-reverse;"&gt;
+    &lt;div class="col-lg-6 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;"&gt;&lt;img src="/image-Photoroom.png" alt="image-Photoroom" name="image-Photoroom.png" style="width: 157%; height: 498px; max-width: 100%; box-shadow: 0px 0px 0px #000000; margin: 0 0 0 auto; padding: 0px 0px 0px 0px; top: 5%;" /&gt;&lt;/div&gt;
+    &lt;div class="col-lg-6 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;"&gt;
+      &lt;h1 style="text-align: center; font-family: Bitter; font-size: 60px; top: 17%;"&gt;A Safe Digital Journey, &lt;br /&gt;One Conversation at a Time&lt;/h1&gt;
+      &lt;button onclick="window.location.href='/Chat'" type="button" value="/Chat" class="button1" style="height: 58px; width: 313px; font-family: Bitter; font-weight: 700; font-size: 21px; margin: 41px auto 0px auto; top: 13%;"&gt;Click Here to Message Now&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row sectionBlockLayout" style="padding: 0px; margin: 0px; display: flex; flex-wrap: wrap; text-align: left; min-height: auto; transform: rotateZ(0deg) scaleX(1) scaleY(1) translateX(0px) translateY(0px);"&gt;
+  &lt;div class="container" style="padding: 0px; display: flex; flex-wrap: wrap;"&gt;
+    &lt;div class="col-lg-4 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;"&gt;
+      &lt;img src="/Circle-1.png" alt="" name="Circle-1.png" style="width: 108px; height: 108px; max-width: 100%; margin-left: auto; margin-right: auto;" /&gt;
+      &lt;h3 style="text-align: center; font-family: Bitter; font-size: 35px;"&gt;AI Chatbot Assistant&lt;/h3&gt;
+      &lt;p style="text-align: center; top: 10px; font-family: Arial;"&gt;Speak openly with your online companion about any strange links or potential viruses for more clarity.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="col-lg-4 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;"&gt;
+      &lt;img src="/Circle-2.png" alt="" name="Circle-2.png" style="width: 108px; height: 108px; max-width: 100%; margin-left: auto; margin-right: auto;" /&gt;
+      &lt;h3 style="text-align: center; font-family: Bitter; font-size: 35px;"&gt;Educational Material&lt;/h3&gt;
+      &lt;p style="text-align: center; top: 10px; font-family: Arial;"&gt;Explore easy-to-understand guides and tips to help you stay safe from online scams, threats, and digital risks.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="col-lg-4 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;"&gt;
+      &lt;img src="/Circle-3.png" alt="" name="Circle-3.png" style="width: 108px; height: 108px; max-width: 100%; margin-left: auto; margin-right: auto;" /&gt;
+      &lt;h3 style="text-align: center; font-size: 35px; font-family: Bitter;"&gt;Daily Games&lt;/h3&gt;
+      &lt;p style="text-align: center; top: 10px; font-family: Arial;"&gt;Stay up to date with cyber threats in a fun and interactive with our daily games and challenges.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div data-component-theme="portalThemeColor6" class="row sectionBlockLayout text-start" style="flex-wrap: wrap; margin: 0px; min-height: auto; padding: 0px; display: block; position: relative; opacity: 1;"&gt;
+  &lt;div class="container" style="padding: 0px; display: flex; flex-wrap: wrap;"&gt;
+    &lt;div class="col-lg-6 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px;"&gt;&lt;img src="/gettyimages-1354195155-640x640.jpg" alt="gettyimages-1354195155-640x640" name="gettyimages-1354195155-640x640.jpg" style="width: 100%; height: auto; max-width: 100%; margin-left: 0; margin-right: auto;" /&gt;&lt;/div&gt;
+    &lt;div class="col-lg-6 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px;"&gt;
+      &lt;h1 style="text-align: center; box-shadow: 0px 0px 0px #88ABA2; border-radius: 0px 0px 0px 0px; border: 0px solid rgb(42, 44, 46); opacity: 1; background-color: rgba(0, 0, 0, 0);"&gt;Emergency Contact​&lt;/h1&gt;
+      &lt;p style="text-align: center;"&gt;Need help right away? Call our support line to speak directly with a voice agent trained to guide you through urgent digital concerns quickly and calmly.&lt;/p&gt;
+      &lt;p style="text-align: center; box-shadow: 0px 0px 0px #000000; text-shadow: 0px 0px 0px #000000; border: 0px solid rgb(42, 44, 46); border-radius: 0px 0px 0px 0px; opacity: 1; background-color: rgba(0, 0, 0, 0);"&gt;​​&lt;a href="tel:+61483901943" aria-label="Link +61 483 901 943 Press enter to edit" style="font-weight: bold; text-decoration: underline; color: inherit; color: #D22B2B; font-size: 26px;"&gt;+61 483 901 943&lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div data-component-theme="portalThemeColor1" class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;"&gt;
+  &lt;div class="container" style="padding: 0px; display: flex; flex-wrap: wrap;"&gt;
+    &lt;div class="col-lg-6 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px;"&gt;
+      &lt;h1 style="text-align: center;"&gt;​Daily Games &amp;amp; Challenges!&lt;br draggable="true" /&gt;&lt;/h1&gt;
+      &lt;p style="text-align: center; font-family: Arial;"&gt;​Stay sharp and build your online safety skills with quick, fun challenges made just for you. Every day brings something new to keep you engaged and learning. &lt;br /&gt;&lt;br /&gt;Ready to play? Let’s begin today’s challenge and take one step closer to becoming a cybersecurity pro!&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+      &lt;a href="/Daily-Games" class="btn button1" style="margin-left: auto; margin-right: auto; width: 365px; height: 55px; font-size: 27px;"&gt;Click Here to Play Now!&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class="col-lg-6 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px;"&gt;&lt;img src="/Senior App.png" alt="Senior App" name="Senior App.png" style="width: 133%; height: 430px; max-width: 100%; margin-left: auto; margin-right: auto;" /&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div data-component-theme="portalThemeColor3" class="row sectionBlockLayout" style="padding: 8px; margin: 0px; display: flex; flex-wrap: wrap; text-align: left; min-height: auto;"&gt;
+  &lt;div class="container" style="padding: 0px; display: flex; flex-wrap: wrap;"&gt;
+    &lt;div class="col-lg-6 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;"&gt;&lt;img src="/Geometric-2.png" alt="" name="Geometric-2.png" style="width: 102.56%; height: 343px; max-width: 100%;" /&gt;&lt;/div&gt;
+    &lt;div class="col-lg-6 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 300px;"&gt;
+      &lt;h1 style="text-align: left;"&gt;About Us&lt;/h1&gt;
+      &lt;p style="font-family: Arial;"&gt;We’re dedicated to help seniors stay safe online by providing easy-to-use cyber security resources and tools. In partnership with the Australian Red Cross and supported by Microsoft Australia, we’ve created a user-friendly app that supports older users in navigating the digital world safely.&lt;/p&gt;
+      &lt;button onclick="window.location.href='/Our-Story'" type="button" value="/Our-Story" class="button1"&gt;Read our story&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+Home</searchcontent>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

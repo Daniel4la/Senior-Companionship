@@ -1,0 +1,11 @@
+<powerpagecomponent powerpagecomponentid="4fae9df6-28f9-411d-b118-abb67eba99e1">
+  <content>{"adx_entitypermission_webrole":["75cd3292-6f0e-4f94-8282-7a657d60d746","1318d681-af69-4b46-a5fd-6156b93bd9b2","a4c0d52c-74bc-40bb-8c6c-f20b6dc28518"],"append":false,"appendto":false,"create":true,"delete":false,"entitylogicalname":"feedback","entityname":"Feedback","read":false,"scope":756150000,"write":false}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Feedback</name>
+  <powerpagecomponenttype>18</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>8a06a503-9ac7-4255-a18f-4522d3048b16</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

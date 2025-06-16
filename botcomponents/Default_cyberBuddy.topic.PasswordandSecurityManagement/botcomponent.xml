@@ -1,0 +1,10 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.PasswordandSecurityManagement">
+  <componenttype>9</componenttype>
+  <iscustomizable>0</iscustomizable>
+  <name>Password and Security Management</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

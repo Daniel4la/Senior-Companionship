@@ -1,0 +1,11 @@
+<powerpagesites>
+  <powerpagesite powerpagesiteid="8a06a503-9ac7-4255-a18f-4522d3048b16">
+    <content>{"defaultlanguage":"75833fe0-0eb4-4fa4-98db-b96a7ac5b501","footerwebtemplateid":"4d856a55-1308-4a95-b9a9-502ad3cc9c2e","headerwebtemplateid":"f0cf50d7-a17c-43ef-b591-22928ada6946","statecode":0,"statuscode":1,"website_language":1033,"defaultbotconsumerid":"f4fe7fb2-ab37-f011-8c4d-6045bd3e5e05"}</content>
+    <datamodelversion>2.0</datamodelversion>
+    <iscustomizable>1</iscustomizable>
+    <name>Senior Companionship - seniorcompanionship</name>
+    <primarydomainname>seniorcompanionship.powerappsportals.com</primarydomainname>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </powerpagesite>
+</powerpagesites>

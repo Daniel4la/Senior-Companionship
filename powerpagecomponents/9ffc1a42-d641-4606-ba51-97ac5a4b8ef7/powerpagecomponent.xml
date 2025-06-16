@@ -1,0 +1,14 @@
+<powerpagecomponent powerpagecomponentid="9ffc1a42-d641-4606-ba51-97ac5a4b8ef7">
+  <content>{"display_name":"Header/Search/FilterLabel","type":756150000,"value":"Search Filter"}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Header/Search/FilterLabel</name>
+  <powerpagecomponenttype>7</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>8a06a503-9ac7-4255-a18f-4522d3048b16</powerpagesiteid>
+  </powerpagesiteid>
+  <powerpagesitelanguageid>
+    <powerpagesitelanguageid>75833fe0-0eb4-4fa4-98db-b96a7ac5b501</powerpagesitelanguageid>
+  </powerpagesitelanguageid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

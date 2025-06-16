@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.Relative_RXOOSSThrS9aLCJU6bPNq">
+  <componenttype>16</componenttype>
+  <description>This is the table of trusted contacts for the user, you will use this information to send the chat log.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Trusted user</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

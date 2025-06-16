@@ -1,0 +1,14 @@
+<powerpagecomponent powerpagecomponentid="4dc55c9b-fe4d-4710-9fd5-0bd934aa3e04">
+  <content>{"display_name":"Search/Facet/Product","type":756150000,"value":"Products"}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Search/Facet/Product</name>
+  <powerpagecomponenttype>7</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>8a06a503-9ac7-4255-a18f-4522d3048b16</powerpagesiteid>
+  </powerpagesiteid>
+  <powerpagesitelanguageid>
+    <powerpagesitelanguageid>75833fe0-0eb4-4fa4-98db-b96a7ac5b501</powerpagesitelanguageid>
+  </powerpagesitelanguageid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

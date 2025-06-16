@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.Westpac_Qk8ZLEZvhpXEI6PgZJD3Y">
+  <componenttype>16</componenttype>
+  <description>When users inquire about the latest banking scams from Westpac, refer to Westpac's Latest Scams and Alerts page. This resource offers current information on various scams targeting bank customers, including impersonation scams, phishing emails, and fraudulent investment opportunities. It provides guidance on recognizing fraudulent communications, understanding common scam tactics, and steps to protect personal and financial information. Regularly consulting this page helps users stay informed about emerging threats and adopt necessary precautions to safeguard their banking activities.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Westpac</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

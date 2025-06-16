@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.AustralianCyberGovReportingScams_4zmdbhL3o32utvTN783bD">
+  <componenttype>16</componenttype>
+  <description>When users need to report a cyber threat, refer them to the Australian Cyber Security Centre’s Report a Cybercrime or Cybersecurity Incident page. This resource provides a clear and accessible way for individuals and businesses to report different types of cyber threats, including scams, data breaches, and suspicious online activity. It explains what information to include in a report and guides users through the process of submitting incidents securely. Reporting helps protect others, allows authorities to investigate the threat, and supports a stronger national response to cybercrime.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Australian Cyber Gov - Reporting Scams</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

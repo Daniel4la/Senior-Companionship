@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.ScamWatchReportaScam_Ga6tebYfPc1pxwBbUDfNg">
+  <componenttype>16</componenttype>
+  <description>This knowledge source searches information on the web found in https://www.scamwatch.gov.au/report-a-scam website when the user wants to report a scam</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Scam Watch Report a Scam</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

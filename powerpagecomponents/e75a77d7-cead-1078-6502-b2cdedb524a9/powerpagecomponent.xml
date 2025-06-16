@@ -1,0 +1,66 @@
+<powerpagecomponent powerpagecomponentid="e75a77d7-cead-1078-6502-b2cdedb524a9">
+  <content>{
+  "displayorder": 17,
+  "customcss": "@import url('https://content.powerapps.com/resource/powerappsportal/fonts/bitter/v32/600.css');\n@import url('https://content.powerapps.com/resource/powerappsportal/fonts/bitter/v32/600-italic.css');\n@import url('https://content.powerapps.com/resource/powerappsportal/fonts/bitter/v32/400.css');\n@import url('https://content.powerapps.com/resource/powerappsportal/fonts/bitter/v32/400-italic.css');\n@import url('https://content.powerapps.com/resource/powerappsportal/fonts/bitter/v32/500.css');\n@import url('https://content.powerapps.com/resource/powerappsportal/fonts/bitter/v32/500-italic.css');\n",
+  "customjavascript": "",
+  "pagetemplateid": "ee1fdcd4-1b8e-490d-911f-f64ae8dda846",
+  "parentpageid": "281b0136-b68b-4ae9-bf57-5f5ea2898081",
+  "partialurl": "Daily-Games-1-deleted",
+  "isroot": false,
+  "rootwebpageid": "98ecef67-58dc-ae65-d23d-d7af101edeb0",
+  "title": "Daily Games (1)",
+  "summary": "&lt;p&gt;This is a sample landing page designed to be a starting point for your website&lt;/p&gt;",
+  "copy": "&lt;div data-component-theme=\"portalThemeColor1\" class=\"row sectionBlockLayout text-start\" style=\"display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 0px; height: 60px;\"&gt;\n  &lt;div class=\"container\" style=\"padding: 0px; display: flex; flex-wrap: wrap;\"&gt;&lt;div class=\"col-lg-12 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; margin: 6px 0px; padding: 10px;\"&gt;{% include 'Pages Breadcrumb' %}&lt;/div&gt;&lt;/div&gt;\n&lt;/div&gt;\n&lt;div data-component-theme=\"portalThemeColor10\" class=\"row sectionBlockLayout text-start\" style='display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 361px; background-image: url(\"/Senior App2.png\"); background-position: center center; background-repeat: no-repeat; background-size: cover;'&gt;\n  &lt;div class=\"container\" style=\"display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div class=\"col-lg-12 columnBlockLayout\" style=\"flex-grow: 1; min-width: 250px; display: flex; flex-direction: column;\"&gt;\n      &lt;h1 style=\"text-align: left; font-family: Bitter;\"&gt;​​&lt;span aria-label=\"Text Daily Games and Challenges Press enter to edit\" style=\"position: relative;\"&gt;Daily Games and Challenges&lt;/span&gt;&lt;br /&gt;&lt;/h1&gt;\n      &lt;p style=\"text-align: left; font-family: Arial;\"&gt;\n        ​​&lt;b aria-label=\"Text ​​\" style=\"position: relative;\"&gt;​​&lt;/b&gt;&lt;span aria-label=\"Text Play a quick, fun challenge each day to boost your cybersecurity awarenessA new quiz is waiting for you every time you log in!\" style=\"position: relative;\"&gt;Play a quick, fun challenge each day to boost your cybersecurity awareness&lt;br draggable=\"true\" /&gt;A new quiz is waiting for you every time you log in!&lt;/span&gt;&lt;br /&gt;\n      &lt;/p&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"row sectionBlockLayout text-start\" style=\"display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;\"&gt;\n  &lt;div class=\"container\" style=\"padding: 0px; display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div class=\"col-lg-12 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 250px;\"&gt;&lt;iframe frameborder=\"0\" src=\"https://chat-iframe-five.vercel.app/games.html\" style=\"width: 127%; height: 579px; max-width: 100%; margin-left: auto; margin-right: auto;\"&gt;&lt;/iframe&gt;&lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;div data-component-theme=\"portalThemeColor2\" class=\"row sectionBlockLayout\" style=\"display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;\"&gt;&lt;/div&gt;\n&lt;div data-component-theme=\"portalThemeColor3\" class=\"row sectionBlockLayout text-start\" style=\"display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;\"&gt;\n  &lt;div class=\"container\" style=\"padding: 0px; display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div class=\"col-lg-12 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; margin: 1px 0px; padding: 16px;\"&gt;\n      &lt;h2 style=\"text-align: center; color: var(--portalThemeColor7); font-family: Bitter;\"&gt;​​&lt;b aria-label=\"Text Ready to test your knowledge?\" style=\"position: relative;\"&gt;Ready to test your knowledge?&lt;/b&gt;&lt;/h2&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;div data-component-theme=\"portalThemeColor2\" class=\"row sectionBlockLayout\" style=\"display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;\"&gt;&lt;/div&gt;\n&lt;div data-component-theme=\"portalThemeColor3\" class=\"row sectionBlockLayout text-start\" style=\"display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;\"&gt;\n  &lt;div class=\"container\" style=\"padding: 0px; display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div class=\"col-lg-12 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; margin: 5px 0px; padding: 16px;\"&gt;&lt;a href=\"https://apps.powerapps.com/play/e/ccc1afb4-e760-e5e3-aed8-e004286e3fc5/a/985e72c0-a5cc-4a63-b277-806b64a1803a?tenantId=b160c7d3-d7d1-4d18-9356-4efb5c56c23d&amp;amp;hint=978bbf39-7a62-4fd3-9e8c-b9e05d9dd749&amp;amp;sourcetime=1747819027510\" rel=\"noopener noreferrer\" target=\"_blank\" class=\"btn button1\" style=\"margin-left: auto; margin-right: auto; font-family: Bitter;\"&gt;Click Here to Start Today's Challenge!&lt;/a&gt;&lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;div data-component-theme=\"portalThemeColor2\" class=\"row sectionBlockLayout\" style=\"display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;\"&gt;&lt;/div&gt;\n",
+  "publishingstateid": "02906326-cb50-43a3-876e-fa32f591dfed",
+  "enablerating": false,
+  "enabletracking": false,
+  "excludefromsearch": false,
+  "hiddenfromsitemap": true,
+  "sharedpageconfiguration": false
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Daily Games (1)-deleted</name>
+  <powerpagecomponenttype>2</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>8a06a503-9ac7-4255-a18f-4522d3048b16</powerpagesiteid>
+  </powerpagesiteid>
+  <powerpagesitelanguageid>
+    <powerpagesitelanguageid>75833fe0-0eb4-4fa4-98db-b96a7ac5b501</powerpagesitelanguageid>
+  </powerpagesitelanguageid>
+  <searchcontent>Daily Games (1)&lt;div data-component-theme="portalThemeColor1" class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 0px; height: 60px;"&gt;
+  &lt;div class="container" style="padding: 0px; display: flex; flex-wrap: wrap;"&gt;&lt;div class="col-lg-12 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; margin: 6px 0px; padding: 10px;"&gt;{% include 'Pages Breadcrumb' %}&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div data-component-theme="portalThemeColor10" class="row sectionBlockLayout text-start" style='display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 361px; background-image: url("/Senior App2.png"); background-position: center center; background-repeat: no-repeat; background-size: cover;'&gt;
+  &lt;div class="container" style="display: flex; flex-wrap: wrap;"&gt;
+    &lt;div class="col-lg-12 columnBlockLayout" style="flex-grow: 1; min-width: 250px; display: flex; flex-direction: column;"&gt;
+      &lt;h1 style="text-align: left; font-family: Bitter;"&gt;​​&lt;span aria-label="Text Daily Games and Challenges Press enter to edit" style="position: relative;"&gt;Daily Games and Challenges&lt;/span&gt;&lt;br /&gt;&lt;/h1&gt;
+      &lt;p style="text-align: left; font-family: Arial;"&gt;
+        ​​&lt;b aria-label="Text ​​" style="position: relative;"&gt;​​&lt;/b&gt;&lt;span aria-label="Text Play a quick, fun challenge each day to boost your cybersecurity awarenessA new quiz is waiting for you every time you log in!" style="position: relative;"&gt;Play a quick, fun challenge each day to boost your cybersecurity awareness&lt;br draggable="true" /&gt;A new quiz is waiting for you every time you log in!&lt;/span&gt;&lt;br /&gt;
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;"&gt;
+  &lt;div class="container" style="padding: 0px; display: flex; flex-wrap: wrap;"&gt;
+    &lt;div class="col-lg-12 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px;"&gt;&lt;iframe frameborder="0" src="https://chat-iframe-five.vercel.app/games.html" style="width: 127%; height: 579px; max-width: 100%; margin-left: auto; margin-right: auto;"&gt;&lt;/iframe&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div data-component-theme="portalThemeColor2" class="row sectionBlockLayout" style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;"&gt;&lt;/div&gt;
+&lt;div data-component-theme="portalThemeColor3" class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;"&gt;
+  &lt;div class="container" style="padding: 0px; display: flex; flex-wrap: wrap;"&gt;
+    &lt;div class="col-lg-12 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; margin: 1px 0px; padding: 16px;"&gt;
+      &lt;h2 style="text-align: center; color: var(--portalThemeColor7); font-family: Bitter;"&gt;​​&lt;b aria-label="Text Ready to test your knowledge?" style="position: relative;"&gt;Ready to test your knowledge?&lt;/b&gt;&lt;/h2&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div data-component-theme="portalThemeColor2" class="row sectionBlockLayout" style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;"&gt;&lt;/div&gt;
+&lt;div data-component-theme="portalThemeColor3" class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;"&gt;
+  &lt;div class="container" style="padding: 0px; display: flex; flex-wrap: wrap;"&gt;
+    &lt;div class="col-lg-12 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 250px; margin: 5px 0px; padding: 16px;"&gt;&lt;a href="https://apps.powerapps.com/play/e/ccc1afb4-e760-e5e3-aed8-e004286e3fc5/a/985e72c0-a5cc-4a63-b277-806b64a1803a?tenantId=b160c7d3-d7d1-4d18-9356-4efb5c56c23d&amp;amp;hint=978bbf39-7a62-4fd3-9e8c-b9e05d9dd749&amp;amp;sourcetime=1747819027510" rel="noopener noreferrer" target="_blank" class="btn button1" style="margin-left: auto; margin-right: auto; font-family: Bitter;"&gt;Click Here to Start Today's Challenge!&lt;/a&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div data-component-theme="portalThemeColor2" class="row sectionBlockLayout" style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 15px;"&gt;&lt;/div&gt;
+Daily Games (1)-deleted</searchcontent>
+  <statecode>1</statecode>
+  <statuscode>2</statuscode>
+</powerpagecomponent>

@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.9news_QEsWmz4oPC2EuMvZ2rjhO">
+  <componenttype>16</componenttype>
+  <description>When users ask for the latest scam news for online resources, refer to this website. It provides up-to-date information on a wide range of scams, including online frauds, phishing schemes, and other deceptive activities. The site aims to keep the public informed about emerging threats, helping individuals stay vigilant and recognize common scam tactics. By regularly visiting this resource, users can stay aware of the latest scams and take proactive steps to protect themselves from becoming victims</description>
+  <iscustomizable>0</iscustomizable>
+  <name>9news</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

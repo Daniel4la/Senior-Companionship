@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.ConsumerGov_3z8eKPfpSEdPzU25l1R82">
+  <componenttype>16</componenttype>
+  <description>When users ask about online shopping and safety, refer to this website. It provides trusted information from Consumer Affairs Victoria on how to shop safely online, including tips on identifying secure websites, protecting payment details, recognising suspicious sellers, and understanding consumer rights. It’s a useful resource to help users make informed decisions and avoid common online shopping scams.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Consumer Gov</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

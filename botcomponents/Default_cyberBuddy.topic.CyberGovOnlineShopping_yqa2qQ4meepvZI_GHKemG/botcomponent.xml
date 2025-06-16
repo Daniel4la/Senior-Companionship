@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.CyberGovOnlineShopping_yqa2qQ4meepvZI_GHKemG">
+  <componenttype>16</componenttype>
+  <description>This knowledge source searches information on the web found in https://www.cyber.gov.au/protect-yourself/staying-secure-online website if users want to be informed on how to stay online</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Cyber Gov Online Shopping</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

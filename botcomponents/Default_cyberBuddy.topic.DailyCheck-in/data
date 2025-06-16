@@ -1,0 +1,34 @@
+kind: AdaptiveDialog
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent:
+    triggerQueries:
+      - check in
+      - let's talk
+      - can we chat
+      - i'd like someone to talk to
+      - i'm feeling lonely
+      - i feel a bit down
+      - i need someone to talk to
+      - have a chat
+
+  actions:
+    - kind: Question
+      id: Question_UqfctF
+      interruptionPolicy:
+        allowInterruption: false
+
+      variable: Topic.DayStatus
+      prompt: Hi {System.User.FirstName}! Thanks for reaching out. How was your day?
+      entity: StringPrebuiltEntity
+
+    - kind: SearchAndSummarizeContent
+      id: OzZZRA
+      userInput: =Topic.DayStatus
+      additionalInstructions: |-
+        Respond like a friendly companion. Continue the chat based on the user's message. Ask a follow-up question to do with what the user has input to keep the conversation going unless the user wants to change the topic.
+        Keep in mind the user is a senior citizen so use simple to understand words.
+
+inputType: {}
+outputType: {}

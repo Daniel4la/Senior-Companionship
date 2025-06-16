@@ -1,0 +1,79 @@
+<powerpagecomponent powerpagecomponentid="789cd291-60f8-1a1e-d639-ccab99a48381">
+  <content>{
+  "displayorder": 13,
+  "customcss": "",
+  "customjavascript": "",
+  "pagetemplateid": "ee1fdcd4-1b8e-490d-911f-f64ae8dda846",
+  "parentpageid": "281b0136-b68b-4ae9-bf57-5f5ea2898081",
+  "partialurl": "About-us-deleted",
+  "isroot": false,
+  "rootwebpageid": "5e28ac61-fb0c-6d5b-66e6-7ed92534e200",
+  "title": "About Our Company",
+  "summary": "&lt;p&gt;This is a sample landing page designed to be a starting point for your website&lt;/p&gt;",
+  "copy": "&lt;div style='display: flex; flex-wrap: wrap; min-height: 50%; background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(\"/Company-6.jpg\"); background-position: center center; background-repeat: no-repeat; background-size: cover;' class=\"row sectionBlockLayout\" data-component-theme=\"portalThemeColor8\"&gt;\n  &lt;div class=\"container\"&gt;\n    &lt;div style=\"flex-grow: 1; display: flex; flex-direction: column; margin: 240px 0px;\" class=\"col-md-12 columnBlockLayout\"&gt;\n      &lt;h1 style=\"text-align: center;\"&gt;About Us&lt;/h1&gt;\n      &lt;h4 style=\"text-align: center;\"&gt;Our Mission and Vision&lt;/h4&gt;\n      &lt;button style=\"text-align: center; margin-left: auto; margin-right: auto;\" class=\"button1\"&gt;Learn More&lt;/button&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n\n&lt;div style=\"display: flex; flex-wrap: wrap; min-height: auto;\" class=\"row sectionBlockLayout\"&gt;\n  &lt;div class=\"container\"&gt;\n    &lt;div style=\"flex-grow: 1; display: flex; flex-direction: column; margin: 30px 0px; padding: 30px;\" class=\"col-md-6 columnBlockLayout\"&gt;\n      &lt;img src=\"/Company.jpg\" alt=\"Team brainstorming session\" style=\"width: 100%; height: auto; border-radius: 4px;\" /&gt;\n      &lt;h2&gt;Who We Are&lt;/h2&gt;\n      &lt;p&gt;We are a dedicated team of professionals committed to delivering innovative solutions that empower our clients. Our diverse backgrounds and expertise allow us to tackle challenges effectively.&lt;/p&gt;\n      &lt;button class=\"button1\"&gt;Meet Our Team&lt;/button&gt;\n    &lt;/div&gt;\n    &lt;div style=\"flex-grow: 1; display: flex; flex-direction: column; margin: 30px 0px; padding: 30px;\" class=\"col-md-6 columnBlockLayout\"&gt;\n      &lt;img src=\"/Company-2.jpg\" alt=\"Client meeting\" style=\"width: 100%; height: auto; border-radius: 4px;\" /&gt;\n      &lt;h2&gt;Our Approach&lt;/h2&gt;\n      &lt;p&gt;We believe in a collaborative approach, working closely with our clients to understand their needs and deliver tailored solutions that drive success.&lt;/p&gt;\n      &lt;button class=\"button1\"&gt;Discover Our Process&lt;/button&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n\n&lt;div style=\"display: flex; flex-wrap: wrap; min-height: auto;\" class=\"row sectionBlockLayout\"&gt;\n  &lt;div class=\"container\"&gt;\n    &lt;div style=\"flex-grow: 1; display: flex; flex-direction: column; margin: 30px 0px; padding: 30px;\" class=\"col-md-4 columnBlockLayout\"&gt;\n      &lt;img src=\"/Company-3.jpg\" alt=\"Core values\" style=\"width: 100%; height: auto; border-radius: 4px;\" /&gt;\n      &lt;h3&gt;Our Values&lt;/h3&gt;\n      &lt;p class=\"smallText\"&gt;Integrity, innovation, and customer satisfaction are at the heart of everything we do. We strive to exceed expectations in every project.&lt;/p&gt;\n    &lt;/div&gt;\n    &lt;div style=\"flex-grow: 1; display: flex; flex-direction: column; margin: 30px 0px; padding: 30px;\" class=\"col-md-4 columnBlockLayout\"&gt;\n      &lt;img src=\"/Company-4.jpg\" alt=\"Support team\" style=\"width: 100%; height: auto; border-radius: 4px;\" /&gt;\n      &lt;h3&gt;24/7 Support&lt;/h3&gt;\n      &lt;p class=\"smallText\"&gt;Our support team is always available to assist you with any inquiries or issues, ensuring a seamless experience.&lt;/p&gt;\n    &lt;/div&gt;\n    &lt;div style=\"flex-grow: 1; display: flex; flex-direction: column; margin: 30px 0px; padding: 30px;\" class=\"col-md-4 columnBlockLayout\"&gt;\n      &lt;img src=\"/Company-5.jpg\" alt=\"Contact us\" style=\"width: 100%; height: auto; border-radius: 4px;\" /&gt;\n      &lt;h3&gt;Get in Touch&lt;/h3&gt;\n      &lt;p class=\"smallText\"&gt;We would love to hear from you! Reach out to us to learn more about how we can help you achieve your goals.&lt;/p&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n",
+  "publishingstateid": "02906326-cb50-43a3-876e-fa32f591dfed",
+  "enablerating": false,
+  "enabletracking": false,
+  "excludefromsearch": false,
+  "hiddenfromsitemap": true,
+  "sharedpageconfiguration": false
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>About us-deleted</name>
+  <powerpagecomponenttype>2</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>8a06a503-9ac7-4255-a18f-4522d3048b16</powerpagesiteid>
+  </powerpagesiteid>
+  <powerpagesitelanguageid>
+    <powerpagesitelanguageid>75833fe0-0eb4-4fa4-98db-b96a7ac5b501</powerpagesitelanguageid>
+  </powerpagesitelanguageid>
+  <searchcontent>About Our Company&lt;div style='display: flex; flex-wrap: wrap; min-height: 50%; background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Company-6.jpg"); background-position: center center; background-repeat: no-repeat; background-size: cover;' class="row sectionBlockLayout" data-component-theme="portalThemeColor8"&gt;
+  &lt;div class="container"&gt;
+    &lt;div style="flex-grow: 1; display: flex; flex-direction: column; margin: 240px 0px;" class="col-md-12 columnBlockLayout"&gt;
+      &lt;h1 style="text-align: center;"&gt;About Us&lt;/h1&gt;
+      &lt;h4 style="text-align: center;"&gt;Our Mission and Vision&lt;/h4&gt;
+      &lt;button style="text-align: center; margin-left: auto; margin-right: auto;" class="button1"&gt;Learn More&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div style="display: flex; flex-wrap: wrap; min-height: auto;" class="row sectionBlockLayout"&gt;
+  &lt;div class="container"&gt;
+    &lt;div style="flex-grow: 1; display: flex; flex-direction: column; margin: 30px 0px; padding: 30px;" class="col-md-6 columnBlockLayout"&gt;
+      &lt;img src="/Company.jpg" alt="Team brainstorming session" style="width: 100%; height: auto; border-radius: 4px;" /&gt;
+      &lt;h2&gt;Who We Are&lt;/h2&gt;
+      &lt;p&gt;We are a dedicated team of professionals committed to delivering innovative solutions that empower our clients. Our diverse backgrounds and expertise allow us to tackle challenges effectively.&lt;/p&gt;
+      &lt;button class="button1"&gt;Meet Our Team&lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div style="flex-grow: 1; display: flex; flex-direction: column; margin: 30px 0px; padding: 30px;" class="col-md-6 columnBlockLayout"&gt;
+      &lt;img src="/Company-2.jpg" alt="Client meeting" style="width: 100%; height: auto; border-radius: 4px;" /&gt;
+      &lt;h2&gt;Our Approach&lt;/h2&gt;
+      &lt;p&gt;We believe in a collaborative approach, working closely with our clients to understand their needs and deliver tailored solutions that drive success.&lt;/p&gt;
+      &lt;button class="button1"&gt;Discover Our Process&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div style="display: flex; flex-wrap: wrap; min-height: auto;" class="row sectionBlockLayout"&gt;
+  &lt;div class="container"&gt;
+    &lt;div style="flex-grow: 1; display: flex; flex-direction: column; margin: 30px 0px; padding: 30px;" class="col-md-4 columnBlockLayout"&gt;
+      &lt;img src="/Company-3.jpg" alt="Core values" style="width: 100%; height: auto; border-radius: 4px;" /&gt;
+      &lt;h3&gt;Our Values&lt;/h3&gt;
+      &lt;p class="smallText"&gt;Integrity, innovation, and customer satisfaction are at the heart of everything we do. We strive to exceed expectations in every project.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div style="flex-grow: 1; display: flex; flex-direction: column; margin: 30px 0px; padding: 30px;" class="col-md-4 columnBlockLayout"&gt;
+      &lt;img src="/Company-4.jpg" alt="Support team" style="width: 100%; height: auto; border-radius: 4px;" /&gt;
+      &lt;h3&gt;24/7 Support&lt;/h3&gt;
+      &lt;p class="smallText"&gt;Our support team is always available to assist you with any inquiries or issues, ensuring a seamless experience.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div style="flex-grow: 1; display: flex; flex-direction: column; margin: 30px 0px; padding: 30px;" class="col-md-4 columnBlockLayout"&gt;
+      &lt;img src="/Company-5.jpg" alt="Contact us" style="width: 100%; height: auto; border-radius: 4px;" /&gt;
+      &lt;h3&gt;Get in Touch&lt;/h3&gt;
+      &lt;p class="smallText"&gt;We would love to hear from you! Reach out to us to learn more about how we can help you achieve your goals.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+About us-deleted</searchcontent>
+  <statecode>1</statecode>
+  <statuscode>2</statuscode>
+</powerpagecomponent>

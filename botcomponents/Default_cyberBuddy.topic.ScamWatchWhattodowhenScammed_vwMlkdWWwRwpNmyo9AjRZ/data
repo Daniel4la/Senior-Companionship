@@ -1,0 +1,4 @@
+kind: KnowledgeSourceConfiguration
+source:
+  kind: PublicSiteSearchSource
+  site: https://www.scamwatch.gov.au/stop-check-protect/what-to-do-if-youve-been-scammed

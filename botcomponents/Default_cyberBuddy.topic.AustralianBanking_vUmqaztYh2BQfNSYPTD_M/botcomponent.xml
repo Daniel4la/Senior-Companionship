@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.AustralianBanking_vUmqaztYh2BQfNSYPTD_M">
+  <componenttype>16</componenttype>
+  <description>When users seek information on identifying and avoiding banking scams, refer them to the Australian Banking Association's (ABA) Scams page. This resource offers comprehensive insights into various scams targeting consumers, including bank impersonation, e-toll, investment, and invoice scams. It provides guidance on recognizing fraudulent communications, understanding common scam tactics, and steps to protect personal and financial information. The ABA emphasizes that banks will never contact customers to request personal details or transfer funds over unsolicited communications, reinforcing the importance of vigilance in safeguarding one's finances</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Australian Banking</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

@@ -1,0 +1,4 @@
+kind: KnowledgeSourceConfiguration
+source:
+  kind: PublicSiteSearchSource
+  site: https://www.scamwatch.gov.au/stop-check-protect/help-to-spot-and-avoid-scams

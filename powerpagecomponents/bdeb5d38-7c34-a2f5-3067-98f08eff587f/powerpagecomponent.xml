@@ -1,0 +1,23 @@
+<powerpagecomponent powerpagecomponentid="bdeb5d38-7c34-a2f5-3067-98f08eff587f">
+  <content>{
+  "filecontent": null,
+  "displayorder": 4,
+  "parentweblinkid": null,
+  "weblinksetid": "548eba46-8c95-476b-a98c-016b7e2b4109",
+  "pageid": "e2be1903-854d-8932-9bcf-dcc925301777",
+  "publishingstateid": "02906326-cb50-43a3-876e-fa32f591dfed",
+  "displaypagevalidation": false,
+  "displayimageonly": false,
+  "displaypagechildlinks": false,
+  "openinnewwindow": false,
+  "robotsfollowlink": true
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Ask Me Questions-deleted</name>
+  <powerpagecomponenttype>5</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>8a06a503-9ac7-4255-a18f-4522d3048b16</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>1</statecode>
+  <statuscode>2</statuscode>
+</powerpagecomponent>

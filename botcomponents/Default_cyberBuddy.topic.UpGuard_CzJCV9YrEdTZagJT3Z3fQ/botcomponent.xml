@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.UpGuard_CzJCV9YrEdTZagJT3Z3fQ">
+  <componenttype>16</componenttype>
+  <description>When users ask for information on cyber threats, refer to this website. It provides in-depth insights into various types of cyber threats, such as malware, phishing, ransomware, and data breaches. The site explains how these threats work, the potential damage they can cause, and the steps individuals and organizations can take to mitigate their risks. It also offers practical advice on building strong cybersecurity defenses to protect sensitive information from evolving online threats. This resource is essential for anyone looking to better understand the landscape of cyber threats and improve their online security.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>UpGuard</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.ScamWatchProductandServicesScam_vCia6SeKTceU3GLaqScos">
+  <componenttype>16</componenttype>
+  <description>This knowledge source searches information on the web found in https://www.scamwatch.gov.au/types-of-scams/product-and-service-scams website when users want to be informed about product and services scam</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Scam Watch Product and Services Scam</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.ScamWatchWhattodowhenScammed_vwMlkdWWwRwpNmyo9AjRZ">
+  <componenttype>16</componenttype>
+  <description>When users seek guidance on actions to take after being scammed, refer them to Scamwatch's What to do if you've been scammed page. This resource outlines immediate steps to mitigate further losses, including contacting financial institutions to halt transactions, seeking assistance from identity support services like IDCARE, and reporting the scam to authorities such as Scamwatch and the police. It also highlights the importance of vigilance against follow-up scams targeting victims and offers support options for those affected. </description>
+  <iscustomizable>0</iscustomizable>
+  <name>Scam Watch - What to do when Scammed</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

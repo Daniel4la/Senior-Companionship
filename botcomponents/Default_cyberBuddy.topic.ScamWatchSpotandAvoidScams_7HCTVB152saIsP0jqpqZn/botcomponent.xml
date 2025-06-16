@@ -1,0 +1,13 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.ScamWatchSpotandAvoidScams_7HCTVB152saIsP0jqpqZn">
+  <componenttype>16</componenttype>
+  <description>When users ask for help identifying or avoiding scams, provide information referring to this website. It provides detailed and reliable information from Scamwatch on how to recognise different types of scams, common red flags to look out for, and steps to take if something doesn’t feel right. The site encourages users to stop, check, and protect themselves by thinking critically before sharing personal or financial information. It’s a valuable resource for learning how to stay alert and safe from evolving scam tactics.
+
+This website is also helpful when users are looking for information about specific scam categories—such as phone scams, email scams, or investment scams—or need guidance on what to do after being scammed. It includes instructions for reporting a scam and provides ongoing scam alerts to keep users informed about the latest threats.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Scam Watch - Spot and Avoid Scams</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

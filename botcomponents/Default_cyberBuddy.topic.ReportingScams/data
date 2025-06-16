@@ -1,0 +1,116 @@
+kind: AdaptiveDialog
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent:
+    triggerQueries:
+      - I need to report a scam
+      - How can I report a scam?
+      - Where can I report a scam?
+      - I want to report a fraudulent transaction
+      - How do I file a scam report?
+      - I need to report a scam to the authorities
+      - What’s the process for reporting a scam?
+      - How can I contact someone about a scam I experienced?
+
+  actions:
+    - kind: SearchAndSummarizeContent
+      id: mFuPa7
+      userInput: =System.LastMessage.Text
+      fileSearchDataSource:
+        searchFilesMode:
+          kind: DoNotSearchFiles
+
+      knowledgeSources:
+        kind: SearchSpecificKnowledgeSources
+        knowledgeSources:
+          - Default_cyberBuddy.topic.ScamWatchReportaScam_Ga6tebYfPc1pxwBbUDfNg
+          - Default_cyberBuddy.topic.MoneySmartGovWhattodowhenScammed_PpbznEPDRvT6jmLSScLAg
+          - Default_cyberBuddy.topic.PoliceGov_1iVJ1DFkH67p01Jm9Nexc
+          - Default_cyberBuddy.topic.AustralianCyberGovReportingScams_Gvhd7JFlMKFOO6ZFeD5YX
+
+    - kind: AdaptiveCardPrompt
+      id: rE0VEi
+      interruptionPolicy:
+        interruptionTopicListFilter:
+          kind: IncludeSelectedTopics
+          allowedInterruptTopics:
+            - Default_cyberBuddy.topic.BeingScammed
+            - Default_cyberBuddy.topic.Escalate
+            - Default_cyberBuddy.topic.FurtherAssistancePrompt
+            - Default_cyberBuddy.topic.Goodbye
+            - Default_cyberBuddy.topic.Greeting
+            - Default_cyberBuddy.topic.ScamNews
+            - Default_cyberBuddy.topic.OnlineShoppingandPaymentSafety
+            - Default_cyberBuddy.topic.RedirectingTopics
+            - Default_cyberBuddy.topic.ReportingScams
+            - Default_cyberBuddy.topic.StartOver
+            - Default_cyberBuddy.topic.ThankYou
+            - Default_cyberBuddy.topic.TipsforScamIdentification
+
+      repeatCount: 0
+      card: |-
+        {
+          "type": "AdaptiveCard",
+          "version": "1.5",
+          "body": [
+            {
+              "type": "TextBlock",
+              "text": "Thanks for sharing that",
+              "weight": "Bolder",
+              "size": "Medium",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "wrap": true,
+              "text": "If you'd like to take action, you can report the scam to Scamwatch. They help people safely report scams, share details, and get advice on recovery steps. "
+            },
+            {
+              "type": "TextBlock",
+              "text": "Let me know if you have any issues or need further assistance with the reporting process. I'm here to help!",
+              "wrap": true,
+              "spacing": "ExtraSmall"
+            }
+          ],
+          "actions": [
+            {
+              "type": "Action.OpenUrl",
+              "title": "Report a Scam",
+              "url": "https://www.scamwatch.gov.au/report-a-scam",
+              "iconUrl": "https://www.scamwatch.gov.au/sites/www.scamwatch.gov.au/themes/scamwatch_theme/images/og-image.png",
+              "style": "positive"
+            },
+            {
+              "type": "Action.Submit",
+              "title": "Need help?",
+              "iconUrl": "https://www.svgrepo.com/show/378548/chat-question.svg",
+              "style": "positive"
+            }
+          ],
+          "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+          "rtl": false
+        }
+      output:
+        binding:
+          actionSubmitId: Topic.actionSubmitId
+
+      outputType:
+        properties:
+          actionSubmitId: String
+
+    - kind: ConditionGroup
+      id: conditionGroup_oFUHIq
+      conditions:
+        - id: conditionItem_pXte9d
+          condition: =!IsBlank(Topic.actionSubmitId)
+          actions:
+            - kind: SendActivity
+              id: sendActivity_7WMr1i
+              activity: Sure! What would you like help with today?
+
+    - kind: EndConversation
+      id: xlOA4G
+
+inputType: {}
+outputType: {}

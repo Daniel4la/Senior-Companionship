@@ -1,0 +1,13 @@
+<powerpagecomponent powerpagecomponentid="eb052483-6b9c-4ed5-8ee3-a8fba23fabb0">
+  <content>{
+  "value": "Give insights on cybersecurity threats in Victoria and it's importance"
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Summarization/prompt/cd38ea03-9e58-4786-aaf1-eb2687273c35</name>
+  <powerpagecomponenttype>9</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>8a06a503-9ac7-4255-a18f-4522d3048b16</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

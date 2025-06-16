@@ -1,0 +1,60 @@
+<powerpagecomponent powerpagecomponentid="20eb5208-c6e9-958f-0e30-edfd1bd9b37f">
+  <content>{
+  "displayorder": 12,
+  "customcss": "",
+  "customjavascript": "",
+  "pagetemplateid": "ee1fdcd4-1b8e-490d-911f-f64ae8dda846",
+  "parentpageid": "281b0136-b68b-4ae9-bf57-5f5ea2898081",
+  "partialurl": "About-Us-deleted",
+  "isroot": false,
+  "rootwebpageid": "524d55c4-304a-e95e-425f-591ced2284ea",
+  "title": "About Us",
+  "summary": "&lt;p&gt;This is a sample landing page designed to be a starting point for your website&lt;/p&gt;",
+  "copy": "&lt;div data-component-theme=\"portalThemeColor8\" class=\"row sectionBlockLayout\" style='padding: 8px; margin: 0px; display: flex; flex-wrap: wrap; min-height: 50%; background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(\"/Cybersecurity-6.jpg\"); background-position: center center; background-repeat: no-repeat; background-size: cover;'&gt;\n  &lt;div class=\"container\"&gt;\n    &lt;div class=\"col-md-12 columnBlockLayout\" style=\"min-width: 250px; flex-grow: 1; display: flex; flex-direction: column; margin: 240px 0px;\"&gt;\n      &lt;h1 style=\"text-align: center;\"&gt;Our Mission&lt;/h1&gt;\n      &lt;h4 style=\"text-align: center;\"&gt;Empowering Seniors in Cyber Safety&lt;/h4&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"row sectionBlockLayout\" style=\"padding: 8px; margin: 0px; display: flex; flex-wrap: wrap; min-height: auto;\"&gt;\n  &lt;div class=\"container\"&gt;\n    &lt;div class=\"col-md-4 columnBlockLayout\" style=\"min-width: 250px; flex-grow: 1; display: flex; flex-direction: column; margin: 30px 0px; padding: 30px;\"&gt;\n      &lt;img src=\"/Cybersecurity-3.jpg\" alt=\"Support for seniors\" style=\"max-width: 100%; width: 100%; height: auto; border-radius: 4px;\" /&gt;\n      &lt;h3&gt;Our Commitment&lt;/h3&gt;\n      &lt;p&gt;We are committed to fostering a safe online environment for seniors, ensuring they feel confident and secure while using technology.&lt;/p&gt;\n    &lt;/div&gt;\n    &lt;div class=\"col-md-4 columnBlockLayout\" style=\"min-width: 250px; flex-grow: 1; display: flex; flex-direction: column; margin: 30px 0px; padding: 30px;\"&gt;\n      &lt;img src=\"/Cybersecurity-4.jpg\" alt=\"Community engagement\" style=\"max-width: 100%; width: 100%; height: auto; border-radius: 4px;\" /&gt;\n      &lt;h3&gt;Community Engagement&lt;/h3&gt;\n      &lt;p&gt;We actively engage with the community to raise awareness about cybersecurity issues affecting seniors and provide necessary support.&lt;/p&gt;\n    &lt;/div&gt;\n    &lt;div class=\"col-md-4 columnBlockLayout\" style=\"min-width: 250px; flex-grow: 1; display: flex; flex-direction: column; margin: 30px 0px; padding: 30px;\"&gt;\n      &lt;img src=\"/Cybersecurity-5.jpg\" alt=\"Resources for seniors\" style=\"max-width: 100%; width: 100%; height: auto; border-radius: 4px;\" /&gt;\n      &lt;h3&gt;Resources Available&lt;/h3&gt;\n      &lt;p&gt;Access a variety of resources, including guides and tips, designed specifically for seniors to enhance their online safety.&lt;/p&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n",
+  "publishingstateid": "02906326-cb50-43a3-876e-fa32f591dfed",
+  "enablerating": false,
+  "enabletracking": false,
+  "excludefromsearch": false,
+  "hiddenfromsitemap": true,
+  "sharedpageconfiguration": false
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>About Us-deleted</name>
+  <powerpagecomponenttype>2</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>8a06a503-9ac7-4255-a18f-4522d3048b16</powerpagesiteid>
+  </powerpagesiteid>
+  <powerpagesitelanguageid>
+    <powerpagesitelanguageid>75833fe0-0eb4-4fa4-98db-b96a7ac5b501</powerpagesitelanguageid>
+  </powerpagesitelanguageid>
+  <searchcontent>About Us&lt;div data-component-theme="portalThemeColor8" class="row sectionBlockLayout" style='padding: 8px; margin: 0px; display: flex; flex-wrap: wrap; min-height: 50%; background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Cybersecurity-6.jpg"); background-position: center center; background-repeat: no-repeat; background-size: cover;'&gt;
+  &lt;div class="container"&gt;
+    &lt;div class="col-md-12 columnBlockLayout" style="min-width: 250px; flex-grow: 1; display: flex; flex-direction: column; margin: 240px 0px;"&gt;
+      &lt;h1 style="text-align: center;"&gt;Our Mission&lt;/h1&gt;
+      &lt;h4 style="text-align: center;"&gt;Empowering Seniors in Cyber Safety&lt;/h4&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row sectionBlockLayout" style="padding: 8px; margin: 0px; display: flex; flex-wrap: wrap; min-height: auto;"&gt;
+  &lt;div class="container"&gt;
+    &lt;div class="col-md-4 columnBlockLayout" style="min-width: 250px; flex-grow: 1; display: flex; flex-direction: column; margin: 30px 0px; padding: 30px;"&gt;
+      &lt;img src="/Cybersecurity-3.jpg" alt="Support for seniors" style="max-width: 100%; width: 100%; height: auto; border-radius: 4px;" /&gt;
+      &lt;h3&gt;Our Commitment&lt;/h3&gt;
+      &lt;p&gt;We are committed to fostering a safe online environment for seniors, ensuring they feel confident and secure while using technology.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="col-md-4 columnBlockLayout" style="min-width: 250px; flex-grow: 1; display: flex; flex-direction: column; margin: 30px 0px; padding: 30px;"&gt;
+      &lt;img src="/Cybersecurity-4.jpg" alt="Community engagement" style="max-width: 100%; width: 100%; height: auto; border-radius: 4px;" /&gt;
+      &lt;h3&gt;Community Engagement&lt;/h3&gt;
+      &lt;p&gt;We actively engage with the community to raise awareness about cybersecurity issues affecting seniors and provide necessary support.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="col-md-4 columnBlockLayout" style="min-width: 250px; flex-grow: 1; display: flex; flex-direction: column; margin: 30px 0px; padding: 30px;"&gt;
+      &lt;img src="/Cybersecurity-5.jpg" alt="Resources for seniors" style="max-width: 100%; width: 100%; height: auto; border-radius: 4px;" /&gt;
+      &lt;h3&gt;Resources Available&lt;/h3&gt;
+      &lt;p&gt;Access a variety of resources, including guides and tips, designed specifically for seniors to enhance their online safety.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+About Us-deleted</searchcontent>
+  <statecode>1</statecode>
+  <statuscode>2</statuscode>
+</powerpagecomponent>

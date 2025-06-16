@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.httpsmoneysmartgovauonlinesafetyprotectyourselffromscams_J_86cL0w7Qaj_M2Qc5">
+  <componenttype>16</componenttype>
+  <description>When users ask for tips on identifying and avoiding scams, refer to this website. It offers trusted advice from Moneysmart on recognising common scam tactics, spotting warning signs, and protecting personal and financial information online.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Money Smart Gov - Protect Yourself From Scams</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

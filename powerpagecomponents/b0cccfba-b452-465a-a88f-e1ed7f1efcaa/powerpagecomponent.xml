@@ -1,0 +1,14 @@
+<powerpagecomponent powerpagecomponentid="b0cccfba-b452-465a-a88f-e1ed7f1efcaa">
+  <content>{"display_name":"Search/Facet/Sort Order/Relevance","type":756150000,"value":"Relevance"}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Search/Facet/SortOrder/Relevance</name>
+  <powerpagecomponenttype>7</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>8a06a503-9ac7-4255-a18f-4522d3048b16</powerpagesiteid>
+  </powerpagesiteid>
+  <powerpagesitelanguageid>
+    <powerpagesitelanguageid>75833fe0-0eb4-4fa4-98db-b96a7ac5b501</powerpagesitelanguageid>
+  </powerpagesitelanguageid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

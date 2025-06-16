@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.CyberGovPasswords_Gj26k0SzuPUJj93N7poGI">
+  <componenttype>16</componenttype>
+  <description>This knowledge source searches information on the web found in https://www.cyber.gov.au/report-and-recover/recover-from/ website when the user wants to know how to improve and manage their passwords</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Cyber Gov Passwords</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

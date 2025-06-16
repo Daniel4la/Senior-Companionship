@@ -1,0 +1,27 @@
+<powerpagecomponent powerpagecomponentid="90ea1645-7bd8-4ac4-b1a1-fa34ae561395">
+  <content>{
+  "lcid": 1033,
+  "entityname": "new_questionsandconcernsforum7e9c",
+  "formname": "Copilot Questions and Concerns Forum",
+  "mode": 100000000,
+  "onsuccess": "756150000",
+  "successmessage": "",
+  "hideformonsuccess": true,
+  "redirectwebpage": null,
+  "redirecturl": null,
+  "captcharequired": false,
+  "showcaptchaforauthenticatedusers": false,
+  "attachfilelabel": "",
+  "attachfilemaxsize": null,
+  "entitysourcetype": null,
+  "recordidquerystringparametername": null
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Copilot Questions and Concerns Forum 7e9c</name>
+  <powerpagecomponenttype>15</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>8a06a503-9ac7-4255-a18f-4522d3048b16</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

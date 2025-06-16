@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.AustralianCyberGovReportingScams_Gvhd7JFlMKFOO6ZFeD5YX">
+  <componenttype>16</componenttype>
+  <description>When users seek information on recovering from scams, refer them to the Australian Cyber Security Centre's Recover from scams page. This resource provides comprehensive guidance on steps to take if you've fallen victim to a scam, including reporting the incident, securing your accounts, and seeking assistance from relevant authorities. It emphasizes the importance of acting promptly to mitigate potential damage and offers advice on preventing future scams. Additionally, the page provides information on how to report scams to the National Anti-Scam Centre, Scamwatch, aiding in disrupting fraudulent activities and protecting others.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Australian Cyber Gov - Report and Recover</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

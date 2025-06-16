@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.MoneySmartGovWhattodowhenScammed_PpbznEPDRvT6jmLSScLAg">
+  <componenttype>16</componenttype>
+  <description>When users seek guidance on recovering from scams, refer them to Moneysmart's What to do if you've been scammed page. This resource outlines immediate actions to mitigate further losses, including contacting financial institutions to report the scam and halt transactions. It also emphasizes the importance of warning family and friends about the scam to prevent others from falling victim. For detailed steps on recovery, users are encouraged to consult the page directly.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Money Smart Gov - What to do when Scammed</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

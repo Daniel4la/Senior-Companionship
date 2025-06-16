@@ -1,0 +1,49 @@
+<powerpagecomponent powerpagecomponentid="57241ed0-2d37-4bc9-874d-b8dbfc9d3d1a">
+  <content>{
+  "filecontent": null,
+  "copy": "&lt;div data-component-theme=\"portalThemeColor2\" class=\"row sectionBlockLayout\" style=\"display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 50px;\"&gt;&lt;/div&gt;\n&lt;div data-component-theme=\"portalThemeColor6\" class=\"row sectionBlockLayout\" style=\"display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 50px;\"&gt;&lt;/div&gt;\n&lt;div class=\"row sectionBlockLayout\" style=\"display: flex; flex-wrap: wrap; text-align: left; min-height: 150px; padding: 8px; margin: 0px;\"&gt;\n  &lt;div class=\"container\" style=\"display: flex; flex-wrap: wrap;\"&gt;\n    &lt;div class=\"col-lg-12 columnBlockLayout\" style=\"flex-grow: 1; min-width: 300px; display: flex; flex-direction: column; margin: 50px 0px;\"&gt;\n      &lt;img src=\"/electric-plug-disconnected-from-socket-icon-vector-removebg-preview.png\" alt=\"electric-plug-disconnected-from-socket-icon-vector-removebg-preview\" name=\"electric-plug-disconnected-from-socket-icon-vector-removebg-preview.png\" style=\"width: 14%; height: 121px; max-width: 100%; margin-left: auto; margin-right: auto;\" /&gt;\n      &lt;h2 style=\"text-align: center;\"&gt;​​&lt;b aria-label=\"Text Looks like you’re not connected to the internet Press enter to edit\" style=\"position: relative;\"&gt;Looks like you’re not connected to the internet&lt;/b&gt;&lt;/h2&gt;\n      &lt;p style=\"text-align: center;\"&gt;​​​​​​​&lt;span aria-label=\"Text Check your connection settings to browse this site Press enter to edit\" style=\"position: relative;\"&gt; Check your connection settings to browse this site &lt;/span&gt;&lt;/p&gt;\n    &lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"row sectionBlockLayout text-start\" style=\"display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;\"&gt;\n  &lt;div class=\"container\" style=\"padding: 0px; display: flex; flex-wrap: wrap; column-gap: 0px;\"&gt;\n    &lt;div class=\"col-lg-12 columnBlockLayout\" style=\"flex-grow: 1; display: flex; flex-direction: column; min-width: 300px; margin: 0px; width: calc(100% + 0px);\"&gt;&lt;img src=\"/OfflinePage.png\" alt=\"\" name=\"OfflinePage.png\" style=\"width: 100%; height: auto; max-width: 100%;\" /&gt;&lt;/div&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n&lt;div data-component-theme=\"portalThemeColor1\" class=\"row sectionBlockLayout\" style=\"display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 200px;\"&gt;&lt;/div&gt;\n",
+  "enablerating": false,
+  "enabletracking": false,
+  "excludefromsearch": false,
+  "feedbackpolicy": 756150000,
+  "hiddenfromsitemap": false,
+  "isroot": false,
+  "pagetemplateid": "ee1fdcd4-1b8e-490d-911f-f64ae8dda846",
+  "parentpageid": "281b0136-b68b-4ae9-bf57-5f5ea2898081",
+  "partialurl": "default-offline-page",
+  "publishingstateid": "02906326-cb50-43a3-876e-fa32f591dfed",
+  "rootwebpageid": "0bdbd79d-89e7-446f-aff6-0b1ccfe5018c",
+  "sharedpageconfiguration": true,
+  "summary": "&lt;p&gt;Offline error page&lt;/p&gt;",
+  "title": "Default Offline Page"
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Default Offline Page</name>
+  <powerpagecomponenttype>2</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>8a06a503-9ac7-4255-a18f-4522d3048b16</powerpagesiteid>
+  </powerpagesiteid>
+  <powerpagesitelanguageid>
+    <powerpagesitelanguageid>75833fe0-0eb4-4fa4-98db-b96a7ac5b501</powerpagesitelanguageid>
+  </powerpagesitelanguageid>
+  <searchcontent>Default Offline Page&lt;div data-component-theme="portalThemeColor2" class="row sectionBlockLayout" style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 50px;"&gt;&lt;/div&gt;
+&lt;div data-component-theme="portalThemeColor6" class="row sectionBlockLayout" style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 50px;"&gt;&lt;/div&gt;
+&lt;div class="row sectionBlockLayout" style="display: flex; flex-wrap: wrap; text-align: left; min-height: 150px; padding: 8px; margin: 0px;"&gt;
+  &lt;div class="container" style="display: flex; flex-wrap: wrap;"&gt;
+    &lt;div class="col-lg-12 columnBlockLayout" style="flex-grow: 1; min-width: 300px; display: flex; flex-direction: column; margin: 50px 0px;"&gt;
+      &lt;img src="/electric-plug-disconnected-from-socket-icon-vector-removebg-preview.png" alt="electric-plug-disconnected-from-socket-icon-vector-removebg-preview" name="electric-plug-disconnected-from-socket-icon-vector-removebg-preview.png" style="width: 14%; height: 121px; max-width: 100%; margin-left: auto; margin-right: auto;" /&gt;
+      &lt;h2 style="text-align: center;"&gt;​​&lt;b aria-label="Text Looks like you’re not connected to the internet Press enter to edit" style="position: relative;"&gt;Looks like you’re not connected to the internet&lt;/b&gt;&lt;/h2&gt;
+      &lt;p style="text-align: center;"&gt;​​​​​​​&lt;span aria-label="Text Check your connection settings to browse this site Press enter to edit" style="position: relative;"&gt; Check your connection settings to browse this site &lt;/span&gt;&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row sectionBlockLayout text-start" style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;"&gt;
+  &lt;div class="container" style="padding: 0px; display: flex; flex-wrap: wrap; column-gap: 0px;"&gt;
+    &lt;div class="col-lg-12 columnBlockLayout" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 300px; margin: 0px; width: calc(100% + 0px);"&gt;&lt;img src="/OfflinePage.png" alt="" name="OfflinePage.png" style="width: 100%; height: auto; max-width: 100%;" /&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div data-component-theme="portalThemeColor1" class="row sectionBlockLayout" style="display: flex; flex-wrap: wrap; padding: 8px; margin: 0px; min-height: 200px;"&gt;&lt;/div&gt;
+Default Offline Page</searchcontent>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

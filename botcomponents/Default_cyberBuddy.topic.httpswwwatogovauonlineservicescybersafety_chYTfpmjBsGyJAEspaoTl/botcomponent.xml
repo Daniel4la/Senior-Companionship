@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.httpswwwatogovauonlineservicescybersafety_chYTfpmjBsGyJAEspaoTl">
+  <componenttype>16</componenttype>
+  <description>When users ask for top cybersecurity tips for protecting their personal and financial information, refer to this website. It provides clear, practical advice from the Australian Taxation Office on how individuals can stay safe online, especially when using government or financial services.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>ATO Cyber Safety</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

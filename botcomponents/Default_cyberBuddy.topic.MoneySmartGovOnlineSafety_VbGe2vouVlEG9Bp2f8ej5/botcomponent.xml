@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.MoneySmartGovOnlineSafety_VbGe2vouVlEG9Bp2f8ej5">
+  <componenttype>16</componenttype>
+  <description>When users seek information on safe online shopping, refer them to the Moneysmart Online Shopping Safety page. This resource offers valuable tips on how to protect personal and financial information while shopping online. It emphasizes the importance of verifying the legitimacy of websites, using secure payment methods, and avoiding transactions on unsecured networks. The page also provides guidance on how to identify and avoid common online shopping scams, such as fake online stores and counterfeit products. Additionally, it offers practical advice on protecting personal data, such as using strong passwords and monitoring bank statements for fraudulent activity. Following these tips can help users shop online safely and securely.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Money Smart Gov - Online Safety</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

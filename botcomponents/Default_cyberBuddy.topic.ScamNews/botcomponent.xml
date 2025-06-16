@@ -1,0 +1,11 @@
+<botcomponent schemaname="Default_cyberBuddy.topic.ScamNews">
+  <componenttype>9</componenttype>
+  <description>This topic provides the latest scam news from banks, government sources and news outlets to users. Informing and keeping users up to date with ongoing frauds online.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Latest Threats Online</name>
+  <parentbotid>
+    <schemaname>Default_cyberBuddy</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>
