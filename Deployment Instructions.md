@@ -1,14 +1,14 @@
 # **Deployment Instructions**
 
-## **Importing the Solution into Microsoft Power Platform** {#importing-the-solution-into-microsoft-power-platform}
+## **Importing the Solution into Microsoft Power Platform**
 
-### **Step 1: Download and Set Up** {#step-1:-download-and-set-up}
+### **Step 1: Download and Set Up** 
 
 1. **Download the solution** “MK-508 Senior Companionship" from the provided source.  
 2. **Sign up for Microsoft Power Platform** and log in to your account.  
 3. Navigate to **Power Pages**, then select the **environment** where you want to import the solution.
 
-### **Step 2: Import the Solution** {#step-2:-import-the-solution}
+### **Step 2: Import the Solution** 
 
 4. In the **left-hand panel**, go to **Solutions**, then click **Import**.  
 5. Select the solution file you previously downloaded.  
@@ -21,14 +21,14 @@
 7. Sign in using a **valid Outlook account** to finalize the connection.  
 8. Click **Import** to complete the process.
 
-### **Step 3: Activate Your Power Pages Site** {#step-3:-activate-your-power-pages-site}
+### **Step 3: Activate Your Power Pages Site** 
 
 9. Once imported, navigate to **Power Pages Home**, then to the **Inactive Sites** tab.  
 10. Locate your newly imported site and click **Reactivate**.  
 11. Choose a new **site name or web address** and click **Done**.  
 12. Your site is now active and accessible.
 
-### **Step 4: Adjust Site Privacy Settings (Optional)** {#step-4:-adjust-site-privacy-settings-(optional)}
+### **Step 4: Adjust Site Privacy Settings (Optional)** 
 
 13. If you want to modify who can access the site:
 
@@ -38,14 +38,14 @@
 
 * Choose between **Private** (default) or **Public** access, depending on your needs.
 
-## **Chatbot Agent Setup (Copilot Studio)** {#chatbot-agent-setup-(copilot-studio)}
+## **Chatbot Agent Setup (Copilot Studio)** 
 
-### **Step 1: Access Copilot Studio** {#step-1:-access-copilot-studio}
+### **Step 1: Access Copilot Studio** 
 
 1. Open **Microsoft Copilot Studio** using the **same Microsoft account** and **environment** as before.  
 2. In the **Agents** tab, locate and select **"Senior Companion"**.
 
-### **Step 2: Configure Authentication** {#step-2:-configure-authentication}
+### **Step 2: Configure Authentication** 
 
 3. Navigate to: **Settings \> Security \> Authentication**.  
 4. To allow users to access the chatbot, you must **configure manual authentication**.  
@@ -54,9 +54,9 @@
 * [Copilot Studios \- Configure end-user authentication](https://learn.microsoft.com/en-us/microsoft-copilot-studio/configuration-end-user-authentication)   
 * [Copilot Studio \- Configure Entra ID Authentication](https://learn.microsoft.com/en-us/microsoft-copilot-studio/configuration-authentication-azure-ad?tabs=fic-auth)
 
-## **Power Pages Google Authentication Setup** {#power-pages-google-authentication-setup}
+## **Power Pages Google Authentication Setup** 
 
-### **Step 1: Begin Google Auth Configuration** {#step-1:-begin-google-auth-configuration}
+### **Step 1: Begin Google Auth Configuration** 
 
 1. In **Power Pages**, edit your newly activated site.  
 2. Navigate to **Security \> Identity Providers**, then choose **Google**.  
@@ -64,7 +64,7 @@
 
 ### 
 
-### **Step 2: Configure Google Cloud** {#step-2:-configure-google-cloud}
+### **Step 2: Configure Google Cloud** 
 
 4. In the Google Cloud Console:
 
@@ -80,7 +80,7 @@
 
 6. On the next screen, enter your **contact email** and click **Create**.
 
-### **Step 3: Add OAuth Credentials** {#step-3:-add-oauth-credentials}
+### **Step 3: Add OAuth Credentials** 
 
 7. Open the **left-side navigation menu** → go to **API & Services \> Credentials**.  
 8. Click **Create Credentials** → select **OAuth Client ID**.  
