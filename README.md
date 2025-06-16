@@ -16,7 +16,7 @@ This project tackles the real-world challenge of low digital literacy among olde
 
 ## Deployment Instructions 🚀
 
-Please see the [Deployment Instructions](./DEPLOYMENT_INSTRUCTIONS.md) file for setup and implementation details.
+Please see the [Deployment Instructions](./Deployment%20Instructions.md) file for setup and implementation details.
 
 ---
 
