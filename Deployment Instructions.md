@@ -1,4 +1,4 @@
-# **Deployment Instructions** {#deployment-instructions}
+# **Deployment Instructions**
 
 ## **Importing the Solution into Microsoft Power Platform** {#importing-the-solution-into-microsoft-power-platform}
 
